@@ -5,12 +5,12 @@ using UnityEngine;
 public class PlayerMovementScript : MonoBehaviour
 {
     [Header("Walk/Run Speeds")]
-    public float walkSpeed     = 5f;   // speed when just walking
-    public float runSpeed      = 8f;   // speed when holding Shift
-    public float rotationSpeed = 540f; // degrees per second to turn
+    public float walkSpeed     = 5f;
+    public float runSpeed      = 8f;
+    public float rotationSpeed = 540f;
 
     [Header("Jump Settings")]
-    public float jumpSpeed           = 5f;
+    public float jumpSpeed            = 5f;
     public float jumpButtonGracePeriod = 0.2f;
 
     private Animator            animator;
@@ -18,19 +18,17 @@ public class PlayerMovementScript : MonoBehaviour
     private float               yVelocity;
     private float?              lastGroundedTime;
     private float?              jumpPressedTime;
-    private float               originalStepOffset;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         cc       = GetComponent<CharacterController>();
-        originalStepOffset = cc.stepOffset;
-        animator.applyRootMotion = false;  // manual movement
+        animator.applyRootMotion = false;
     }
 
     void Update()
     {
-        // ─── JUMP & GRAVITY ────────────────────────────────────
+        // ─── 1) Ground-buffered jump input ───────────────────────────────
         if (cc.isGrounded)
             lastGroundedTime = Time.time;
         if (Input.GetButtonDown("Jump"))
@@ -48,58 +46,52 @@ public class PlayerMovementScript : MonoBehaviour
             animator.SetBool("IsJumping", true);
             lastGroundedTime = jumpPressedTime = null;
         }
-        else if (cc.isGrounded)
-        {
-            yVelocity = -0.5f;
-            animator.SetBool("IsJumping", false);
-        }
-        else
-        {
-            yVelocity += Physics.gravity.y * Time.deltaTime;
-        }
 
-        // ─── INPUT & CAMERA-RELATIVE MOVEMENT ───────────────────
+        // ─── 2) Apply gravity every frame ───────────────────────────────
+        yVelocity += Physics.gravity.y * Time.deltaTime;
+
+        // ─── 3) Handle horizontal input & camera-relative motion ────────
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
-        // get camera axes
         Transform cam = Camera.main.transform;
-        Vector3 camForward = cam.forward; camForward.y = 0; camForward.Normalize();
-        Vector3 camRight   = cam.right;   camRight.y   = 0; camRight.Normalize();
+        Vector3 camF = cam.forward; camF.y = 0; camF.Normalize();
+        Vector3 camR = cam.right;   camR.y = 0; camR.Normalize();
 
-        // direction relative to camera
-        Vector3 dir = (camForward * v + camRight * h).normalized;
+        Vector3 dir = (camF * v + camR * h).normalized;
 
-        // determine walk vs run
-        bool walking = v > 0.1f || h != 0;  // any input
+        bool walking = dir.sqrMagnitude > 0f;
         bool running = walking && Input.GetKey(KeyCode.LeftShift);
         animator.SetBool("IsWalking", walking);
         animator.SetBool("IsRunning", running);
 
-        // pick speed
         float currentSpeed = running ? runSpeed : walkSpeed;
+        Vector3 motion    = dir * currentSpeed;
+        motion.y          = yVelocity;
 
-        // move
-        Vector3 motion = dir * currentSpeed;
-        motion.y = yVelocity;
-        cc.stepOffset = cc.isGrounded ? originalStepOffset : 0;
-        cc.Move(motion * Time.deltaTime);
+        // ─── 4) Move & detect ground collision ─────────────────────────
+        CollisionFlags flags = cc.Move(motion * Time.deltaTime);
 
-        // ─── ROTATION TOWARDS MOVE DIRECTION ───────────────────
+        if ((flags & CollisionFlags.Below) != 0 && yVelocity < 0f)
+        {
+            // you’ve just landed — clamp and stick to ground
+            yVelocity = -2f;
+            animator.SetBool("IsJumping", false);
+        }
+
+        // ─── 5) Rotate toward move direction ──────────────────────────
         if (dir.sqrMagnitude > 0f)
         {
-            Quaternion targetRot = Quaternion.LookRotation(dir);
+            Quaternion tgt = Quaternion.LookRotation(dir);
             transform.rotation = Quaternion.RotateTowards(
                 transform.rotation,
-                targetRot,
+                tgt,
                 rotationSpeed * Time.deltaTime
             );
         }
 
-        // ─── ATTACK & DEFEND BOOLEAN FLAGS ─────────────────────
-        // Attack triggers one frame when clicking Fire1
+        // ─── 6) Combat flags ──────────────────────────────────────────
         animator.SetBool("IsAttacking", Input.GetButtonDown("Fire1"));
-        // Defend is true while holding Fire2
         animator.SetBool("IsDefending", Input.GetButton("Fire2"));
     }
 }
