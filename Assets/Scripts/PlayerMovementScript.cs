@@ -4,12 +4,13 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController), typeof(Animator))]
 public class PlayerMovementScript : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    public float speed = 5f;
-    public float rotationSpeed = 720f;
+    [Header("Walk/Run Speeds")]
+    public float walkSpeed     = 5f;   // speed when just walking
+    public float runSpeed      = 8f;   // speed when holding Shift
+    public float rotationSpeed = 540f; // degrees per second to turn
 
     [Header("Jump Settings")]
-    public float jumpSpeed = 5f;
+    public float jumpSpeed           = 5f;
     public float jumpButtonGracePeriod = 0.2f;
 
     private Animator            animator;
@@ -24,20 +25,22 @@ public class PlayerMovementScript : MonoBehaviour
         animator = GetComponent<Animator>();
         cc       = GetComponent<CharacterController>();
         originalStepOffset = cc.stepOffset;
-        animator.applyRootMotion = false; // manual movement
+        animator.applyRootMotion = false;  // manual movement
     }
 
     void Update()
     {
-        // ─── JUMP & GRAVITY ──────────────────────────────────────────────
-        if (cc.isGrounded) lastGroundedTime = Time.time;
-        if (Input.GetButtonDown("Jump")) jumpPressedTime = Time.time;
+        // ─── JUMP & GRAVITY ────────────────────────────────────
+        if (cc.isGrounded)
+            lastGroundedTime = Time.time;
+        if (Input.GetButtonDown("Jump"))
+            jumpPressedTime = Time.time;
 
         bool canJump =
-            lastGroundedTime.HasValue
-            && Time.time - lastGroundedTime <= jumpButtonGracePeriod
-            && jumpPressedTime.HasValue
-            && Time.time - jumpPressedTime <= jumpButtonGracePeriod;
+            lastGroundedTime.HasValue &&
+            Time.time - lastGroundedTime <= jumpButtonGracePeriod &&
+            jumpPressedTime.HasValue &&
+            Time.time - jumpPressedTime <= jumpButtonGracePeriod;
 
         if (canJump)
         {
@@ -55,39 +58,48 @@ public class PlayerMovementScript : MonoBehaviour
             yVelocity += Physics.gravity.y * Time.deltaTime;
         }
 
-        // ─── INPUT & MOVEMENT ────────────────────────────────────────────
+        // ─── INPUT & CAMERA-RELATIVE MOVEMENT ───────────────────
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
-        Vector3 dir = (transform.forward * v + transform.right * h).normalized;
 
-        Vector3 motion = dir * speed;
-        motion.y = yVelocity;
-        cc.stepOffset = cc.isGrounded ? originalStepOffset : 0;
-        cc.Move(motion * Time.deltaTime);
+        // get camera axes
+        Transform cam = Camera.main.transform;
+        Vector3 camForward = cam.forward; camForward.y = 0; camForward.Normalize();
+        Vector3 camRight   = cam.right;   camRight.y   = 0; camRight.Normalize();
 
-        // ─── ROTATION ────────────────────────────────────────────────────
-        Vector3 look = new Vector3(dir.x, 0, dir.z);
-        if (look.sqrMagnitude > 0f)
-        {
-            Quaternion tgt = Quaternion.LookRotation(look);
-            transform.rotation = Quaternion.RotateTowards(
-                transform.rotation,
-                tgt,
-                rotationSpeed * Time.deltaTime
-            );
-        }
+        // direction relative to camera
+        Vector3 dir = (camForward * v + camRight * h).normalized;
 
-        // ─── WALK / RUN ──────────────────────────────────────────────────
-        bool walking = v > 0.1f;
+        // determine walk vs run
+        bool walking = v > 0.1f || h != 0;  // any input
         bool running = walking && Input.GetKey(KeyCode.LeftShift);
         animator.SetBool("IsWalking", walking);
         animator.SetBool("IsRunning", running);
 
-        // ─── ATTACK & DEFEND AS BOOLS ───────────────────────────────────
-        // Attack is only true the single frame you click Fire1:
-        animator.SetBool("IsAttacking", Input.GetButtonDown("Fire1"));
+        // pick speed
+        float currentSpeed = running ? runSpeed : walkSpeed;
 
-        // Defend is true while you hold Fire2:
+        // move
+        Vector3 motion = dir * currentSpeed;
+        motion.y = yVelocity;
+        cc.stepOffset = cc.isGrounded ? originalStepOffset : 0;
+        cc.Move(motion * Time.deltaTime);
+
+        // ─── ROTATION TOWARDS MOVE DIRECTION ───────────────────
+        if (dir.sqrMagnitude > 0f)
+        {
+            Quaternion targetRot = Quaternion.LookRotation(dir);
+            transform.rotation = Quaternion.RotateTowards(
+                transform.rotation,
+                targetRot,
+                rotationSpeed * Time.deltaTime
+            );
+        }
+
+        // ─── ATTACK & DEFEND BOOLEAN FLAGS ─────────────────────
+        // Attack triggers one frame when clicking Fire1
+        animator.SetBool("IsAttacking", Input.GetButtonDown("Fire1"));
+        // Defend is true while holding Fire2
         animator.SetBool("IsDefending", Input.GetButton("Fire2"));
     }
 }
