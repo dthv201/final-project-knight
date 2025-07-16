@@ -1,4 +1,3 @@
-// PlayerMovementScript.cs
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController), typeof(Animator))]
@@ -10,7 +9,7 @@ public class PlayerMovementScript : MonoBehaviour
     public float rotationSpeed = 540f;
 
     [Header("Jump Settings")]
-    public float jumpSpeed            = 5f;
+    public float jumpSpeed             = 5f;
     public float jumpButtonGracePeriod = 0.2f;
 
     private Animator            animator;
@@ -19,7 +18,6 @@ public class PlayerMovementScript : MonoBehaviour
     private float?              lastGroundedTime;
     private float?              jumpPressedTime;
 
-    
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -29,95 +27,44 @@ public class PlayerMovementScript : MonoBehaviour
 
     void Update()
     {
-        // ─── 1) Ground-buffered jump input ───────────────────────────────
-        if (cc.isGrounded)
-            lastGroundedTime = Time.time;
-        if (Input.GetButtonDown("Jump"))
-            jumpPressedTime = Time.time;
+     // Cache stats once
+var stats = GetComponent<PlayerStats>();
 
-        bool canJump =
-            lastGroundedTime.HasValue &&
-            Time.time - lastGroundedTime <= jumpButtonGracePeriod &&
-            jumpPressedTime.HasValue &&
-            Time.time - jumpPressedTime <= jumpButtonGracePeriod;
+// ——— ATTACK ———
+if (Input.GetButtonDown("Fire1"))
+{
+    // only flash on insufficient stamina
+    if (stats.TryUseStamina(stats.attackCost))
+    {
+        animator.SetTrigger("Attack");
+    }
+    else
+    {
+        stats.FlashStaminaBar();
+        // play “no stamina” SFX if you like
+    }
+}
 
-        if (canJump)
-        {
-            yVelocity = jumpSpeed;
-            animator.SetBool("IsJumping", true);
-            lastGroundedTime = jumpPressedTime = null;
-        }
+// ——— DEFEND ———
+if (Input.GetButton("Fire2"))
+{
+    float blockThisFrame = stats.blockCost * Time.deltaTime;
+    if (stats.currentStamina >= blockThisFrame)
+    {
+        stats.currentStamina -= blockThisFrame;
+        animator.SetBool("IsDefending", true);
+    }
+    else
+    {
+        animator.SetBool("IsDefending", false);
+        stats.FlashStaminaBar();
+    }
+}
+else
+{
+    // you released the button: just turn it off, no flash
+    animator.SetBool("IsDefending", false);
+}
 
-        // ─── 2) Apply gravity every frame ───────────────────────────────
-        yVelocity += Physics.gravity.y * Time.deltaTime;
-
-        // ─── 3) Handle horizontal input & camera-relative motion ────────
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
-
-        Transform cam = Camera.main.transform;
-        Vector3 camF = cam.forward; camF.y = 0; camF.Normalize();
-        Vector3 camR = cam.right; camR.y = 0; camR.Normalize();
-
-        Vector3 dir = (camF * v + camR * h).normalized;
-
-        bool walking = dir.sqrMagnitude > 0f;
-        bool running = walking && Input.GetKey(KeyCode.LeftShift);
-        animator.SetBool("IsWalking", walking);
-        animator.SetBool("IsRunning", running);
-
-        float currentSpeed = running ? runSpeed : walkSpeed;
-        Vector3 motion = dir * currentSpeed;
-        motion.y = yVelocity;
-
-        // ─── 4) Move & detect ground collision ─────────────────────────
-        CollisionFlags flags = cc.Move(motion * Time.deltaTime);
-
-        if ((flags & CollisionFlags.Below) != 0 && yVelocity < 0f)
-        {
-            // you’ve just landed — clamp and stick to ground
-            yVelocity = -2f;
-            animator.SetBool("IsJumping", false);
-        }
-
-        // ─── 5) Rotate toward move direction ──────────────────────────
-        if (dir.sqrMagnitude > 0f)
-        {
-            Quaternion tgt = Quaternion.LookRotation(dir);
-            transform.rotation = Quaternion.RotateTowards(
-                transform.rotation,
-                tgt,
-                rotationSpeed * Time.deltaTime
-            );
-        }
-
-        // ─── 6) Attack Defence animetion and stamina ──────────────────
-        // Cache your PlayerStats once per frame
-        var stats = GetComponent<PlayerStats>();
-
-        // ─── ATTACK (one‐shot bool + stamina + auto‐reset) ───────────────
-
-        if (Input.GetButtonDown("Fire1") && stats.TryUseStamina(stats.attackCost))
-             animator.SetTrigger("Attack");
-
-        // ─── DEFEND (hold bool + stamina) ─────────────────────────────────
-
-        // If you hold Fire2 and have enough stamina this frame, defend
-        if (Input.GetButton("Fire2") && stats.currentStamina >= stats.blockCost * Time.deltaTime)
-        {
-            stats.currentStamina -= stats.blockCost * Time.deltaTime;
-            
-            animator.SetBool("IsDefending", true);
-        }
-        else
-        {
-            // Always clear defend when you release or run out
-            animator.SetBool("IsDefending", false);
-        }
-
-        
-
-
-            
-        }
+    }
 }

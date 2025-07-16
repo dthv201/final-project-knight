@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,49 +10,66 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector] public float currentHealth;
 
     [Header("Stamina")]
-    public float maxStamina   = 100f;
-    public float staminaRegen = 10f;
-    public float attackCost   = 20f;
-    public float blockCost    = 10f;
+    public float maxStamina       = 100f;
+    public float staminaRegen     = 10f;
+    public float attackCost       = 20f;
+    public float blockCost        = 50f;
+    public float jumpStaminaCost  = 20f;
+    public float runStaminaCost   = 5f;
     [HideInInspector] public float currentStamina;
 
     [Header("UI References")]
     public Slider healthBar;
     public Slider staminaBar;
+    
+    public Image staminaFill;    // hook up the Fill Image of your StaminaBar
+    public Color normalColor = Color.yellow;
+    public Color alertColor  = Color.red;
+    public float flashDuration = 0.2f;
+    private Coroutine flashRoutine;
 
     private void Awake()
     {
-        currentHealth  = maxHealth;
+        currentHealth = maxHealth;
         currentStamina = maxStamina;
     }
 
     private void Update()
     {
-        // Regen stamina if not depleting
-        if (!Input.GetButton("Fire1") && !Input.GetButton("Fire2"))
-        {
+        // Regen when neither attacking nor blocking nor running
+        bool isUsingStamina = Input.GetButton("Fire1")
+                            || Input.GetButton("Fire2")
+                            || Input.GetKey(KeyCode.LeftShift) && Input.GetAxisRaw("Vertical") > 0.1f;
+        if (!isUsingStamina)
             currentStamina += staminaRegen * Time.deltaTime;
-        }
 
-        // Clamp values
+        // Clamp
         currentHealth  = Mathf.Clamp(currentHealth,  0f, maxHealth);
         currentStamina = Mathf.Clamp(currentStamina, 0f, maxStamina);
 
         // Update UI
-        if (healthBar != null)
-            healthBar.value = currentHealth / maxHealth;
-        if (staminaBar != null)
-            staminaBar.value = currentStamina / maxStamina;
+        if (healthBar  != null) healthBar.value  = currentHealth  / maxHealth;
+        if (staminaBar != null) staminaBar.value = currentStamina / maxStamina;
     }
 
-    // Call this to damage the player
+    public void FlashStaminaBar()
+    {
+        if (flashRoutine != null) StopCoroutine(flashRoutine);
+        flashRoutine = StartCoroutine(DoFlash());
+    }
+
+    private IEnumerator DoFlash()
+    {
+        staminaFill.color = alertColor;
+        yield return new WaitForSeconds(flashDuration);
+        staminaFill.color = normalColor;
+    }
+
     public void TakeDamage(float amount)
     {
         currentHealth -= amount;
-        // TODO: trigger hurt animation, sounds, death check...
     }
 
-    // Call this when you swing an attack
     public bool TryUseStamina(float cost)
     {
         if (currentStamina >= cost)
@@ -59,6 +77,7 @@ public class PlayerStats : MonoBehaviour
             currentStamina -= cost;
             return true;
         }
+        
         return false;
     }
 }
