@@ -19,6 +19,7 @@ public class PlayerMovementScript : MonoBehaviour
     private float?              lastGroundedTime;
     private float?              jumpPressedTime;
 
+    
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -56,7 +57,7 @@ public class PlayerMovementScript : MonoBehaviour
 
         Transform cam = Camera.main.transform;
         Vector3 camF = cam.forward; camF.y = 0; camF.Normalize();
-        Vector3 camR = cam.right;   camR.y = 0; camR.Normalize();
+        Vector3 camR = cam.right; camR.y = 0; camR.Normalize();
 
         Vector3 dir = (camF * v + camR * h).normalized;
 
@@ -66,8 +67,8 @@ public class PlayerMovementScript : MonoBehaviour
         animator.SetBool("IsRunning", running);
 
         float currentSpeed = running ? runSpeed : walkSpeed;
-        Vector3 motion    = dir * currentSpeed;
-        motion.y          = yVelocity;
+        Vector3 motion = dir * currentSpeed;
+        motion.y = yVelocity;
 
         // ─── 4) Move & detect ground collision ─────────────────────────
         CollisionFlags flags = cc.Move(motion * Time.deltaTime);
@@ -90,8 +91,33 @@ public class PlayerMovementScript : MonoBehaviour
             );
         }
 
-        // ─── 6) Combat flags ──────────────────────────────────────────
-        animator.SetBool("IsAttacking", Input.GetButtonDown("Fire1"));
-        animator.SetBool("IsDefending", Input.GetButton("Fire2"));
-    }
+        // ─── 6) Attack Defence animetion and stamina ──────────────────
+        // Cache your PlayerStats once per frame
+        var stats = GetComponent<PlayerStats>();
+
+        // ─── ATTACK (one‐shot bool + stamina + auto‐reset) ───────────────
+
+        if (Input.GetButtonDown("Fire1") && stats.TryUseStamina(stats.attackCost))
+             animator.SetTrigger("Attack");
+
+        // ─── DEFEND (hold bool + stamina) ─────────────────────────────────
+
+        // If you hold Fire2 and have enough stamina this frame, defend
+        if (Input.GetButton("Fire2") && stats.currentStamina >= stats.blockCost * Time.deltaTime)
+        {
+            stats.currentStamina -= stats.blockCost * Time.deltaTime;
+            
+            animator.SetBool("IsDefending", true);
+        }
+        else
+        {
+            // Always clear defend when you release or run out
+            animator.SetBool("IsDefending", false);
+        }
+
+        
+
+
+            
+        }
 }
