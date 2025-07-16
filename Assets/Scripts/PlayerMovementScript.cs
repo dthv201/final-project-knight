@@ -115,24 +115,21 @@ public class PlayerMovementScript : MonoBehaviour
                 stats.FlashStaminaBar();
         }
 
-        // ─── 8) Defend ─────────────────────────────────────────
-        if (holdBlk)
-        {
-            float blockCostThisFrame = stats.blockCost * Time.deltaTime;
-            if (stats.currentStamina >= blockCostThisFrame)
-            {
-                stats.currentStamina -= blockCostThisFrame;
-                animator.SetBool("IsDefending", true);
-            }
-            else
-            {
-                animator.SetBool("IsDefending", false);
-                stats.FlashStaminaBar();
-            }
-        }
-        else
-        {
-            animator.SetBool("IsDefending", false);
-        }
+     // …at top of Update(), after caching stats…
+
+
+// ─── DEFEND (hold + stamina) ───────────────────────────
+
+    if (holdBlk && stats.currentStamina >= stats.blockCost * Time.deltaTime)
+    {
+        stats.currentStamina -= stats.blockCost * Time.deltaTime;
+        animator.SetBool("IsBlocking", true);
+    }
+    else
+    {
+        animator.SetBool("IsBlocking", false);
+    }
+
+
     }
 }
