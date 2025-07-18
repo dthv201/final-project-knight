@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Medieval Weapon Pack/Models/Unused/Materials/Mat_Armor.mat.meta
+guid: e44f044912975fd43a35aa0724417bb3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+========
+guid: e7ba445ea7e0cd34b970d07cf4f69eb5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+>>>>>>>> 738ef5e5de38da2f3f6f5b916a883631e0f3a870:Assets/AnimetionControllers/Knight_Animator.controller.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
