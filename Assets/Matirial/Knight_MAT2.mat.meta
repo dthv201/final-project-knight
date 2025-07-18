@@ -1,15 +1,17 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+ HEAD:Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
 guid: e73a58f6e2794ae7b1b7e50b7fb811b0
 timeCreated: 1484172806
 licenseType: Pro
 NativeFormatImporter:
 ========
+=======
 guid: bd8e9f7e14a46b045b47cc36535946c6
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
->>>>>>>> 738ef5e5de38da2f3f6f5b916a883631e0f3a870:Assets/Matirial/Knight_MAT2.mat.meta
+ 738ef5e5de38da2f3f6f5b916a883631e0f3a870:Assets/Matirial/Knight_MAT2.mat.meta
+=======
   userData: 
   assetBundleName: 
   assetBundleVariant: 

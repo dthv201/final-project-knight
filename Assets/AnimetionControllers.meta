@@ -1,9 +1,12 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/HamsterCage.meta
+:Assets/HamsterCage.meta
 guid: 53210bc7bc753824486659946b0a61e2
-========
+
 guid: 53e28e31bc49de842a2f2cd908eb7740
->>>>>>>> 738ef5e5de38da2f3f6f5b916a883631e0f3a870:Assets/AnimetionControllers.meta
+ 738ef5e5de38da2f3f6f5b916a883631e0f3a870:Assets/AnimetionControllers.meta
+
+guid: 53e28e31bc49de842a2f2cd908eb7740
+
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
