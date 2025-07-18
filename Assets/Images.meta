@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Images.meta
 guid: 520f362bd70ff354e9db0474ef1cf56e
+========
+guid: 6ea315d0fd7389c41b19996891e99ae3
+>>>>>>>> 738ef5e5de38da2f3f6f5b916a883631e0f3a870:Assets/Medieval Weapon Pack/Scenes.meta
+=======
+<<<<<<<< HEAD:Assets/Medieval Weapon Pack/Models/Unused/Materials.meta
+guid: 6d25abb03174a2142a84919ce3fb8f59
+========
+guid: 1278f96cd21ffd24e8d2d4cc3ded0bbb
+>>>>>>>> 738ef5e5de38da2f3f6f5b916a883631e0f3a870:Assets/Images.meta
+>>>>>>> 738ef5e5de38da2f3f6f5b916a883631e0f3a870
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
