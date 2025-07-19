@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Knight_MAT2
-    second: {fileID: 2100000, guid: bd8e9f7e14a46b045b47cc36535946c6, type: 2}
+    second: {fileID: 2100000, guid: 7cbb9d80f81ea6b408d1a7b8824d655b, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Knight_diffuse
-    second: {fileID: 2800000, guid: 5410d6153abbb1c4ab49f4b03b69b5be, type: 3}
+    second: {fileID: 2800000, guid: 5cad2e2fad1e728498ef483d9960b872, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Knight_normal
-    second: {fileID: 2800000, guid: f2bb4b8125e9f9746ba986c2aac06944, type: 3}
+    second: {fileID: 2800000, guid: 0cb43504bc5b97b40b038da0d650bf9c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Knight_specular
-    second: {fileID: 2800000, guid: e38d4d0ece635b3489f4df1bd03d478a, type: 3}
+    second: {fileID: 2800000, guid: f55c601fc2b8f08469de6a8b2ceee09e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
