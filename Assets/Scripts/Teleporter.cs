@@ -1,40 +1,41 @@
-// put this on your PlayerMovementScript (or a new Teleport script on the Player)
 using UnityEngine;
 
-public class Teleporter : MonoBehaviour
+[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Rigidbody))]
+public class TeleportTrigger : MonoBehaviour
 {
-    [Tooltip("Drag your Dragon's 'TeleportPoint' here")]
+    [Tooltip("Where the player will end up")]
     public Transform teleportPoint;
-
-    CharacterController cc;
 
     void Awake()
     {
-        cc = GetComponent<CharacterController>();
+        // ensure it really is a trigger
+        GetComponent<Collider>().isTrigger = true;
+
+        // kinematic Rigidbody to receive trigger events
+        var rb = GetComponent<Rigidbody>();
+        rb.isKinematic = true;
     }
 
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        // e.g. press 'T' to teleport
-        if (Input.GetKeyDown(KeyCode.T))
-            DoTeleport();
-    }
-
-    void DoTeleport()
-    {
-        // disable the CharacterController so we can warp
-        cc.enabled = false;
-
-        // snap the player to the point
-        transform.position = teleportPoint.position;
-
-        // if you want to face the dragon:
-        Vector3 flatDir = teleportPoint.parent.position - transform.position;
-        flatDir.y = 0;
-        if (flatDir.sqrMagnitude > 0.01f)
-            transform.rotation = Quaternion.LookRotation(flatDir);
-
-        // re-enable
-        cc.enabled = true;
+        if (other.CompareTag("Player"))
+        {
+            // grab their CharacterController so we can disable it
+            var cc = other.GetComponent<CharacterController>();
+            if (cc != null)
+            {
+                cc.enabled = false;
+                other.transform.position = teleportPoint.position;
+                other.transform.rotation = teleportPoint.rotation;
+                cc.enabled = true;
+            }
+            else
+            {
+                // fallback if you somehow don't have a CC
+                other.transform.position = teleportPoint.position;
+                other.transform.rotation = teleportPoint.rotation;
+            }
+        }
     }
 }
