@@ -15,6 +15,8 @@ public class DragonAI : MonoBehaviour
     [Header("References")]
     public PlayerStats player;    // drag your Player GameObject here
     public Animator animator;     // optional: for Attack/Hurt/Die triggers
+    [Header("Chase")]
+    public float chaseSpeed = 3f;
 
     private float currentHealth;
     private bool fighting;
@@ -48,23 +50,31 @@ public class DragonAI : MonoBehaviour
         }
     }
 
-    private IEnumerator AttackRoutine()
+
+private IEnumerator AttackRoutine()
+{
+    while (fighting && currentHealth > 0f && player.currentHealth > 0f)
     {
-        // keep attacking until someone dies
-        //  Debug.Log("DragonAI: entering fight loop");
-        while (fighting && currentHealth > 0f && player.currentHealth > 0f)
-    {
-        float dist = Vector3.Distance(transform.position, player.transform.position);
+        // compute direction and distance
+        Vector3 dir = (player.transform.position - transform.position);
+        dir.y = 0; 
+        float dist = dir.magnitude;
+
         if (dist <= attackRange)
         {
+            // Face the player
+            transform.rotation = Quaternion.LookRotation(dir.normalized);
+            // Attack
             animator?.SetTrigger("Attack");
-            yield return new WaitForSeconds(.5f);
+            yield return new WaitForSeconds(0.5f);
             player.TakeDamage(attackDamage);
             yield return new WaitForSeconds(attackInterval - 0.5f);
         }
         else
         {
-            // if out of range, wait a frame and check again
+            // Chase: face + move forward
+            transform.rotation = Quaternion.LookRotation(dir.normalized);
+            transform.Translate(Vector3.forward * chaseSpeed * Time.deltaTime, Space.Self);
             yield return null;
         }
     }

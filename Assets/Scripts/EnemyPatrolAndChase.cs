@@ -42,12 +42,12 @@ public class EnemyPatrolAndChase : MonoBehaviour
                 agent.SetDestination(player.position);
                 lastTimeSeen = Time.time;
 
-                // attack when close enough
-                if (agent.remainingDistance <= attackRadius)
-                {
-                    agent.isStopped = true;
-                    anim.SetTrigger("Attack");
-                }
+                // // attack when close enough
+                // if (agent.remainingDistance <= attackRadius)
+                // {
+                //     agent.isStopped = true;
+                //     anim.SetTrigger("Attack");
+                // }
             }
             // 2. If chasing but player lost -> keep chasing a bit, then return
             else if (Time.time - lastTimeSeen < giveUpAfter)
