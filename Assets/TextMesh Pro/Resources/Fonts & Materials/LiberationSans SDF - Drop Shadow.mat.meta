@@ -1,8 +1,21 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+>>>>>>> 89e3f392ff29d5faac1794c478c1ef620f23b459
 guid: e73a58f6e2794ae7b1b7e50b7fb811b0
 timeCreated: 1484172806
 licenseType: Pro
 NativeFormatImporter:
+<<<<<<< HEAD
+=======
+========
+guid: 658892a144b73324c920250b112dfb0d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>>> 544c0f2956ce2ada5c3144ffc678b31b5446d2ad:Assets/AllStarCharacterLibrary/Models/Characters/Materials/A03_LOD 1.mat.meta
+>>>>>>> 89e3f392ff29d5faac1794c478c1ef620f23b459
   userData: 
   assetBundleName: 
   assetBundleVariant: 
