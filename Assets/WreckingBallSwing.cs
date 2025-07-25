@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class WreckingBallSwing : MonoBehaviour
 {
-	public float swingAmplitude = 10f;     // Lowered for gentler force
-	public float swingFrequency = 0.5f;    // Lower frequency = slower swing
+	public float swingAmplitude = 150f;     // Lowered for gentler force
+	public float swingFrequency = 1.5f;    // Lower frequency = slower swing
 	public Vector3 swingAxis = Vector3.right;
 
 	private Rigidbody rb;
