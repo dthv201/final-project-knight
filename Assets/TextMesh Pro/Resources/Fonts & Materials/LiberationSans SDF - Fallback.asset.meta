@@ -1,8 +1,27 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+>>>>>>> 89e3f392ff29d5faac1794c478c1ef620f23b459
+>>>>>>> origin/main
 guid: 2e498d1c8094910479dc3e1b768306a4
 timeCreated: 1484171803
 licenseType: Pro
 NativeFormatImporter:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+========
+guid: d7dd436a42c0a6d49a5d276b97ad87ad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+>>>>>>>> 544c0f2956ce2ada5c3144ffc678b31b5446d2ad:Assets/Scenes/Forest/NavMesh-NavMesh Surface.asset.meta
+>>>>>>> 89e3f392ff29d5faac1794c478c1ef620f23b459
+>>>>>>> origin/main
   userData: 
   assetBundleName: 
   assetBundleVariant: 
