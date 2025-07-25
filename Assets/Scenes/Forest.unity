@@ -427,8 +427,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1136998813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 12, y: -1.2}
   m_SizeDelta: {x: 30, y: -1.2}
   m_Pivot: {x: 1, y: 1}
@@ -1604,7 +1604,7 @@ RectTransform:
   m_Father: {fileID: 794963660}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1790,8 +1790,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.01086355, y: 0.9404407, z: -0.030187037, w: 0.33844075}
-  m_LocalPosition: {x: 370.81018, y: 1.9699999, z: 392.86945}
+  m_LocalRotation: {x: 0, y: 0.9659258, z: 0, w: 0.25881907}
+  m_LocalPosition: {x: 372.97702, y: 1.706, z: 388.02798}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5051,7 +5051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  respawnPoint: {fileID: 623484288}
+  respawnPoint: {fileID: 0}
   maxStamina: 100
   staminaRegen: 10
   attackCost: 20
@@ -7306,7 +7306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1645304195
 RectTransform:
   m_ObjectHideFlags: 0
