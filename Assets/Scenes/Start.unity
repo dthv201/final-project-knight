@@ -1038,8 +1038,8 @@ GameObject:
   - component: {fileID: 2076467953}
   - component: {fileID: 2076467957}
   - component: {fileID: 2076467956}
-  - component: {fileID: 2076467955}
   - component: {fileID: 2076467954}
+  - component: {fileID: 2076467958}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -1110,7 +1110,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2076467955}
+      - m_Target: {fileID: 2076467958}
         m_TargetAssemblyTypeName: Strarting, Assembly-CSharp
         m_MethodName: OnStartClicked
         m_Mode: 1
@@ -1122,19 +1122,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2076467955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076467952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f256c315273ce749b78c3cb1daad8a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainSceneName: MainScene
 --- !u!114 &2076467956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1177,6 +1164,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076467952}
   m_CullTransparentMesh: 1
+--- !u!114 &2076467958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076467952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0691dee2196c4d46a8ee74092b2f055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSceneName: Forest
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

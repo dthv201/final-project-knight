@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 23e23351dd8d51243bb304c108c2b261
+  - enabled: 1
     path: Assets/Scenes/Forest.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    guid: e06a311244d32d34498d0b75d97095f0
+  - enabled: 1
+    path: Assets/Scenes/SecondMission.unity
+    guid: cbada3d3d31669b449169e15d4f3bc11
+  - enabled: 1
+    path: Assets/Scenes/ThirdMission.unity
+    guid: 6ee97ca6080c5d44a98488a06dd38027
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
