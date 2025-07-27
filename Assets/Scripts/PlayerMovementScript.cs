@@ -99,11 +99,11 @@ public class PlayerMovementScript : MonoBehaviour
         if (dir.sqrMagnitude > 0f)
         {
             var tgt = Quaternion.LookRotation(dir);
-            transform.rotation = Quaternion.RotateTowards(
-                transform.rotation,
-                tgt,
-                rotationSpeed * Time.deltaTime
-            );
+            transform.rotation = Quaternion.Slerp(
+            transform.rotation,
+            tgt,
+            rotationSpeed * Time.deltaTime / 360f
+);
         }
 
         // ─── 7) Attack ─────────────────────────────────────────
