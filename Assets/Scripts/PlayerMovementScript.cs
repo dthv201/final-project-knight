@@ -6,7 +6,7 @@ public class PlayerMovementScript : MonoBehaviour
     [Header("Walk/Run Speeds")]
     public float walkSpeed     = 5f;
     public float runSpeed      = 8f;
-    public float rotationSpeed = 540f;
+    public float rotationSpeed = 10f;
 
     [Header("Jump Settings")]
     public float jumpSpeed             = 5f;
@@ -101,8 +101,8 @@ public class PlayerMovementScript : MonoBehaviour
             var tgt = Quaternion.LookRotation(dir);
             transform.rotation = Quaternion.Slerp(
             transform.rotation,
-            tgt,
-            rotationSpeed * Time.deltaTime / 360f
+            Quaternion.LookRotation(dir),
+            rotationSpeed * Time.deltaTime
 );
         }
 
