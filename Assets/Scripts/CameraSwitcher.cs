@@ -19,16 +19,21 @@ public class CameraSwitcher : MonoBehaviour
     private int playerBodyLayerMask;
 
     void Start()
-    {
-        // Cache references
-        mainCam = Camera.main;
-        thirdPersonCam.gameObject.SetActive(true);
-        firstPersonCam.gameObject.SetActive(false);
+{
+    mainCam = Camera.main;
 
-        // Build a bitmask for your PlayerBody layer
-        int layerIndex = LayerMask.NameToLayer(PlayerBodyLayerName);
-        playerBodyLayerMask = 1 << layerIndex;
-    }
+    thirdPersonCam.gameObject.SetActive(true);
+    firstPersonCam.gameObject.SetActive(false);
+    usingFirstPerson = false; // make sure it's synced
+
+    // Layer mask
+    int layerIndex = LayerMask.NameToLayer(PlayerBodyLayerName);
+    playerBodyLayerMask = 1 << layerIndex;
+
+    // ✅ Apply correct culling on start
+    mainCam.cullingMask |= playerBodyLayerMask; // show PlayerBody initially
+}
+
 
     void Update()
     {
