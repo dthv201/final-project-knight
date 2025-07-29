@@ -6,7 +6,7 @@ public class PlayerMovementScript : MonoBehaviour
     [Header("Walk/Run Speeds")]
     public float walkSpeed     = 5f;
     public float runSpeed      = 8f;
-    public float rotationSpeed = 10f;
+    public float rotationSpeed = 75f;
 
     [Header("Jump Settings")]
     public float jumpSpeed             = 5f;
@@ -63,11 +63,12 @@ public class PlayerMovementScript : MonoBehaviour
         // ─── 2) Gravity ────────────────────────────────────────
         yVelocity += Physics.gravity.y * Time.deltaTime;
 
-        // ─── 3) Camera-relative input ──────────────────────────
+     // ─── 3) Camera-relative input ──────────────────────────
         Transform cam = Camera.main.transform;
         Vector3 camF  = cam.forward; camF.y = 0; camF.Normalize();
-        Vector3 camR  = cam.right;   camR.y = 0; camR.Normalize();
+        Vector3 camR  = -cam.right;  camR.y = 0; camR.Normalize(); // <- FIXED LINE
         Vector3 dir   = (camF * v + camR * h).normalized;
+
 
         // ─── 4) Run/walk + drain ──────────────────────────────
         bool walking = dir.sqrMagnitude > 0f;
@@ -99,11 +100,11 @@ public class PlayerMovementScript : MonoBehaviour
         if (dir.sqrMagnitude > 0f)
         {
             var tgt = Quaternion.LookRotation(dir);
-            transform.rotation = Quaternion.Slerp(
-            transform.rotation,
-            Quaternion.LookRotation(dir),
-            rotationSpeed * Time.deltaTime
-);
+            transform.rotation = Quaternion.RotateTowards(
+                transform.rotation,
+                tgt,
+                rotationSpeed * Time.deltaTime
+            );
         }
 
         // ─── 7) Attack ─────────────────────────────────────────
