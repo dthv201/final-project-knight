@@ -27,6 +27,20 @@ public class DoorTrigger : MonoBehaviour
                 Debug.LogError($"[DoorTrigger] nextSceneName is empty on {gameObject.name}");
                 return;
             }
+
+            // ✅ Grab PlayerStats from the object that entered
+            PlayerStats stats = other.GetComponent<PlayerStats>();
+            if (stats == null)
+            {
+                Debug.LogError("PlayerStats component not found on triggering object.");
+                return;
+            }
+
+            // ✅ Save stats to PlayerData
+            PlayerData.currentHealth  = stats.currentHealth;
+            PlayerData.currentStamina = stats.currentStamina;
+            PlayerData.hasSpeedBoots  = stats.hasSpeedBoots;
+
             Debug.Log($"[DoorTrigger] Loading scene '{nextSceneName}'");
             SceneManager.LoadScene(nextSceneName);
         }

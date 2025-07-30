@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
@@ -36,7 +37,9 @@ public class PlayerStats : MonoBehaviour
       [Header("Invulnerability")]
     public float invulnDuration = 1f;
     private float lastHitTime = -999f;
-
+    
+    [HideInInspector]
+    internal bool hasSpeedBoots = false;
 
     private void Awake()
     {
@@ -52,6 +55,13 @@ public class PlayerStats : MonoBehaviour
             respawnPoint = go.transform;
         }
     }
+    void Start()
+    {
+        currentHealth    = PlayerData.currentHealth;
+        currentStamina   = PlayerData.currentStamina;
+        hasSpeedBoots    = PlayerData.hasSpeedBoots;
+    }
+
 
     private void Update()
     {
@@ -63,11 +73,11 @@ public class PlayerStats : MonoBehaviour
             currentStamina += staminaRegen * Time.deltaTime;
 
         // Clamp values
-        currentHealth  = Mathf.Clamp(currentHealth,  0f, maxHealth);
+        currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
         currentStamina = Mathf.Clamp(currentStamina, 0f, maxStamina);
 
         // Update UI sliders
-        if (healthBar  != null) healthBar.value  = currentHealth  / maxHealth;
+        if (healthBar != null) healthBar.value = currentHealth / maxHealth;
         if (staminaBar != null) staminaBar.value = currentStamina / maxStamina;
     }
 
@@ -89,7 +99,7 @@ public class PlayerStats : MonoBehaviour
     /// </summary>
     public void TakeDamage(float amount)
     {
-         if (Time.time < lastHitTime + invulnDuration)
+        if (Time.time < lastHitTime + invulnDuration)
         {
             Debug.Log("Damage skipped—still invulnerable");
             return;
@@ -100,16 +110,19 @@ public class PlayerStats : MonoBehaviour
         currentHealth -= amount;
         Debug.Log($"Player took {amount} damage, HP now {currentHealth}/{maxHealth}");
 
-        if (currentHealth <= 0f)
-            DieAndRespawn();
-    }
+        if (currentHealth == 50f)
+            Respawn();
 
-    private void DieAndRespawn()
+        if (currentHealth <= 0f)
+            Die();
+            
+    }
+    
+     private void Respawn()
     {
         Debug.Log("Player died — respawning.");
 
         // Reset health and stamina
-        currentHealth  = maxHealth;
         currentStamina = maxStamina;
 
         // Teleport to respawn point
@@ -120,6 +133,12 @@ public class PlayerStats : MonoBehaviour
         // Update UI immediately
         if (healthBar  != null) healthBar.value  = currentHealth  / maxHealth;
         if (staminaBar != null) staminaBar.value = currentStamina / maxStamina;
+    }
+
+    private void Die()
+    {
+        Debug.Log("Player died.");
+        SceneManager.LoadScene("Lose"); 
     }
 
     /// <summary>

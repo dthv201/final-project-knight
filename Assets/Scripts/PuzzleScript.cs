@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 public class PuzzleScript : MonoBehaviour
 {
     public GameObject puzzlePanel;
-    public GameObject successMessage;
     public Button castleButton;
     public Button HatButton;
     public Button SwordButton;
@@ -16,7 +15,6 @@ public class PuzzleScript : MonoBehaviour
     void Start()
     {
         puzzlePanel.SetActive(false); // hide panel at start
-        successMessage.SetActive(false);
 
         castleButton.onClick.AddListener(() => CheckStep("Castle"));
         HatButton.onClick.AddListener(() => CheckStep("Hat"));
@@ -27,7 +25,6 @@ public class PuzzleScript : MonoBehaviour
     {
         puzzlePanel.SetActive(true);
         currentStep = 0;
-        successMessage.SetActive(false);
     }
 
     void CheckStep(string name)
@@ -37,7 +34,6 @@ public class PuzzleScript : MonoBehaviour
             currentStep++;
             if (currentStep >= correctOrder.Length)
             {
-                successMessage.SetActive(true);
                 Debug.Log("Puzzle Solved!");
                 SceneManager.LoadScene("Win"); // Load Win scene
             }

@@ -85,6 +85,9 @@ public class PlayerMovementScript : MonoBehaviour
         animator.SetBool("IsRunning", running);
 
         float speed = running ? runSpeed : walkSpeed;
+        if (stats.hasSpeedBoots)
+            speed *= 1.3f;
+            
         Vector3 motion = dir * speed;
         motion.y = yVelocity;
 
