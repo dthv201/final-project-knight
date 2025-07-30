@@ -11,7 +11,7 @@ public class PlayerStats : MonoBehaviour
 
     [Header("Respawn")]
     [Tooltip("Drag the GameObject you want to respawn at here")]
-    public Transform respawnPoint;    // assign this in the Inspector
+    public Transform respawnPoint;
 
     [Header("Stamina")]
     public float maxStamina       = 100f;
@@ -25,7 +25,7 @@ public class PlayerStats : MonoBehaviour
     [Header("UI References")]
     public Slider healthBar;
     public Slider staminaBar;
-    public Image staminaFill;    // hook up the Fill Image of your StaminaBar
+    public Image staminaFill;
     public Color normalColor = Color.yellow;
     public Color alertColor  = Color.red;
     public float flashDuration = 0.2f;
@@ -34,7 +34,7 @@ public class PlayerStats : MonoBehaviour
     private CharacterController controller;
     
       [Header("Invulnerability")]
-    public float invulnDuration = 1f;    // seconds after being hit
+    public float invulnDuration = 1f;
     private float lastHitTime = -999f;
 
 

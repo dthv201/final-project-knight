@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 288046817}
   - component: {fileID: 288046816}
   - component: {fileID: 288046815}
+  - component: {fileID: 288046820}
   m_Layer: 5
   m_Name: Start over
   m_TagString: Untagged
@@ -351,9 +352,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288046815}
-        m_TargetAssemblyTypeName: Losingscript, Assembly-CSharp
-        m_MethodName: OnLoseClicked
+      - m_Target: {fileID: 288046820}
+        m_TargetAssemblyTypeName: TryAgain, Assembly-CSharp
+        m_MethodName: OnYesClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -405,6 +406,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288046813}
   m_CullTransparentMesh: 1
+--- !u!114 &288046820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288046813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dfff906d0436e48855e4a5dcb1d9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &293557896
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,6 +841,7 @@ GameObject:
   - component: {fileID: 1494341075}
   - component: {fileID: 1494341074}
   - component: {fileID: 1494341073}
+  - component: {fileID: 1494341078}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -925,9 +939,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1494341073}
-        m_TargetAssemblyTypeName: Losingscript, Assembly-CSharp
-        m_MethodName: OnLoseClicked
+      - m_Target: {fileID: 1494341078}
+        m_TargetAssemblyTypeName: TryAgain, Assembly-CSharp
+        m_MethodName: OnNoClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -979,6 +993,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494341071}
   m_CullTransparentMesh: 1
+--- !u!114 &1494341078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494341071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dfff906d0436e48855e4a5dcb1d9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1848746591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,19 +1257,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1918758982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1918758979}
-        m_TargetAssemblyTypeName: Losingscript, Assembly-CSharp
-        m_MethodName: OnLoseClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1918758982
 MonoBehaviour:
   m_ObjectHideFlags: 0

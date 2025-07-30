@@ -6939,6 +6939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Mana and Health '
       objectReference: {fileID: 0}
+    - target: {fileID: 2617044775130818379, guid: f561407acce2a6d479849716fb58a440, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0141b7d5763c8214aaa0959de40c90e5, type: 3}
     - target: {fileID: 2715893103274733174, guid: f561407acce2a6d479849716fb58a440, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

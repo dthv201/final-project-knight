@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThirdMission.unity
     guid: 6ee97ca6080c5d44a98488a06dd38027
+  - enabled: 1
+    path: Assets/Scenes/TryAgain.unity
+    guid: 8f086827326157c46a9d4764277e3149
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 77f44bd8f3cd83648b187328804c6619
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
