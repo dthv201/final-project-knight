@@ -8,24 +8,34 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Trunk01
-  m_Shader: {fileID: 4800000, guid: 0cfef65042c2e4941b0639ecee9b9f7f, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - TVE_ALPHA_CLIP
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
   - _NORMALMAP
+  - _OCCLUSIONMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses:
   - TransparentBackface
   - TransparentBackfaceDebugDisplay
   - TransparentDepthPrepass
   - TransparentDepthPostpass
+  - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 4e42be3377eaccd40abd3f48bd6554a5, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -79,7 +89,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e251468106f8d5b409d6ee86caa99cc5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -110,6 +120,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: fd2dde1c7e4d28b41b6d5634154b8283, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -122,12 +136,29 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0
     - _AlphaClipValue: 0.5
     - _AlphaCutoffBias: 0.5
     - _AlphaRemapMax: 1
     - _AlphaRemapMin: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
     - _BoundsHeightValue: 1
     - _BoundsRadiusValue: 1
     - _Brightness: 1
@@ -152,6 +183,8 @@ Material:
     - _CategoryOcclusion: 1
     - _CategoryRender: 1
     - _CategorySubsurface: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
     - _ColorShiftEnable: 0
     - _ColorShiftEnableMask: 1
     - _ColorShiftInfluence: 0.75
@@ -167,6 +200,7 @@ Material:
     - _ColorShiftWorldSpaceOffset: 1
     - _Cull: 0
     - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
     - _DetailAlphaMode: 1
     - _DetailBlendEnableAltitudeMask: 0
     - _DetailBlendHeight: 0.5
@@ -203,12 +237,14 @@ Material:
     - _DetailValue: 1
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _EmissiveFlagMode: 0
     - _EmissiveIntensityMode: 0
     - _EmissiveIntensityValue: 1
     - _EmissiveMode: 0
     - _EmissiveTexMaxValue: 1
     - _EmissiveTexMinValue: 0
+    - _EnvironmentReflections: 1
     - _GlancingClipMode: 0
     - _GlobalOverlay: 1
     - _GlossMapScale: 1
@@ -270,6 +306,8 @@ Material:
     - _OverlayProjectionValue: 0.5
     - _OverlayVariationValue: 0.5
     - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _RenderClip: 1
     - _RenderCull: 0
     - _RenderDecals: 0
@@ -300,6 +338,7 @@ Material:
     - _SecondUVsMode: 0
     - _SecondUVsScaleMode: 0
     - _Shininess: 0.078125
+    - _Smoothness: 0.5
     - _SmoothnessFresnelEnable: 0
     - _SmoothnessFresnelPower: 10
     - _SmoothnessFresnelScale: 1.1
@@ -310,6 +349,7 @@ Material:
     - _SpecularHighlights: 1
     - _SquashAmount: 1
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _SubsurfaceAmbientValue: 0.2
     - _SubsurfaceAngleValue: 8
     - _SubsurfaceDiffusion: 0
@@ -319,6 +359,7 @@ Material:
     - _SubsurfaceScatteringValue: 2
     - _SubsurfaceShadowValue: 1
     - _SubsurfaceValue: 0
+    - _Surface: 0
     - _ThicknessFeather: 1
     - _ThicknessMapInverted: 0
     - _ThicknessStrength: 1.466198
@@ -357,6 +398,7 @@ Material:
     - _WindLocalPulseFrequency: 0.1
     - _WindLocalRandomOffset: 0.2
     - _WindLocalTurbulence: 0.35
+    - _WorkflowMode: 1
     - _ZWrite: 1
     - __dirty: 1
     - _emissive_intensity_value: 1
@@ -368,7 +410,7 @@ Material:
     m_Colors:
     - _AlphaRemap: {r: 0, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _DetailBlendRemap: {r: 0, g: 0, b: 0, a: 0}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
     - _DetailMaskRemap: {r: 0, g: 0, b: 0, a: 0}
@@ -407,3 +449,17 @@ Material:
     - _second_uvs_mode: {r: 1, g: 0, b: 0, a: 0}
     - _vertex_occlusion_mask_mode: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &1375529953307173321
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

@@ -21,8 +21,11 @@ public class PlayerMovementScript : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        cc       = GetComponent<CharacterController>();
+        cc = GetComponent<CharacterController>();
         animator.applyRootMotion = false;
+        
+        Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
     void Update()
