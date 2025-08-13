@@ -7,6 +7,7 @@ TagManager:
   - 'DragonAI '
   - Boss
   - Sword
+  - MapMark
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - 
   - PlayerBody
   - Player
-  - 
-  - 
+  - MapMark
+  - sword_Shilde
   - 
   - 
   - 

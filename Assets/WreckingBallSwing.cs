@@ -5,7 +5,7 @@ public class WreckingBallSwing : MonoBehaviour
 	public float swingAmplitude = 150f;     // Lowered for gentler force
 	public float swingFrequency = 1.5f;    // Lower frequency = slower swing
 
-	public PlayerStats player;
+	private PlayerStats player;
 
 	public float attackDamage    = 50f;
 
@@ -13,9 +13,18 @@ public class WreckingBallSwing : MonoBehaviour
 
 	private Rigidbody rb;
 
+	private float lastHitTime = 0f;
+	public float hitCooldown = 1f;
+
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
+
+		 GameObject playerGO = GameObject.FindWithTag("Player");
+		if (playerGO != null)
+		{
+			player = playerGO.GetComponent<PlayerStats>();
+		}
 	}
 
 
@@ -28,8 +37,9 @@ public class WreckingBallSwing : MonoBehaviour
 	
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.CompareTag("Player"))
+		if (other.CompareTag("Player") && Time.time - lastHitTime > hitCooldown)
 		{
+			lastHitTime = Time.time;
 			player.TakeDamage(attackDamage);
 		}
 	}

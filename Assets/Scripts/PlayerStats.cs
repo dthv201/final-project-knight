@@ -97,43 +97,46 @@ public class PlayerStats : MonoBehaviour
     /// <summary>
     /// Call this to damage the player.
     /// </summary>
-    public void TakeDamage(float amount)
+public void TakeDamage(float amount)
+{
+    if (Time.time < lastHitTime + invulnDuration)
     {
-        if (Time.time < lastHitTime + invulnDuration)
-        {
-            Debug.Log("Damage skipped—still invulnerable");
-            return;
-        }
-        lastHitTime = Time.time;
-
-        // 2) Actually take damage
-        currentHealth -= amount;
-        Debug.Log($"Player took {amount} damage, HP now {currentHealth}/{maxHealth}");
-
-        if (currentHealth == 50f)
-            Respawn();
-
-        if (currentHealth <= 0f)
-            Die();
-            
+        Debug.Log("Damage skipped—still invulnerable");
+        return;
     }
-    
-     private void Respawn()
+
+    lastHitTime = Time.time;
+    currentHealth -= amount;
+
+    Debug.Log($"Player took {amount} damage, HP now {currentHealth}/{maxHealth}");
+
+    if (currentHealth <= 0f)
     {
-        Debug.Log("Player died — respawning.");
+        Respawn(); // 🛡 Respawn instead of dying
+    }
+}
 
-        // Reset health and stamina
-        currentStamina = maxStamina;
 
-        // Teleport to respawn point
+    
+private void Respawn()
+{
+    Debug.Log("Player died — respawning.");
+
+    currentHealth  = maxHealth;
+    currentStamina = maxStamina;
+
+    if (controller != null && respawnPoint != null)
+    {
         controller.enabled = false;
         transform.position = respawnPoint.position;
+        transform.rotation = respawnPoint.rotation;
         controller.enabled = true;
-
-        // Update UI immediately
-        if (healthBar  != null) healthBar.value  = currentHealth  / maxHealth;
-        if (staminaBar != null) staminaBar.value = currentStamina / maxStamina;
     }
+
+    if (healthBar)  healthBar.value  = currentHealth  / maxHealth;
+    if (staminaBar) staminaBar.value = currentStamina / maxStamina;
+}
+
 
     private void Die()
     {

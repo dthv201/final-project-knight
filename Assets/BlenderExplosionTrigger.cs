@@ -5,7 +5,7 @@ public class BlenderExplosionTrigger : MonoBehaviour
 	public GameObject fracturedObject;
 	public float explosionForce = 500f;
 	public float explosionRadius = 5f;
-	public string playerTag = "Player"; // Ensure your player GameObject is tagged with "Player"
+	public string playerTag = "Sword"; // Ensure your player GameObject is tagged with "Player"
 
 	private bool hasExploded = false;
 

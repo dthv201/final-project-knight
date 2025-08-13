@@ -1,64 +1,76 @@
 using UnityEngine;
-using Unity.Cinemachine;
-
 
 public class CameraSwitcher : MonoBehaviour
 {
-    [Header("Cinemachine Cameras")]
-    public CinemachineFreeLook thirdPersonCam;     // your FreeLook rig
-    public CinemachineVirtualCamera firstPersonCam; // your FPS rig
+    [Header("Camera GameObjects (each has Camera + ThirdPersonAimCamera)")]
+    public GameObject firstPersonCamGO;
+    public GameObject thirdPersonCamGO;
 
-    [Header("Key to Switch")]
+    [Header("Keybinds")]
     public KeyCode switchKey = KeyCode.V;
 
-    // Name of the layer you created for your player mesh
-    const string PlayerBodyLayerName = "PlayerBody";
+    private Camera fpCam;
+    private Camera tpCam;
 
-    private bool usingFirstPerson = false;
-    private Camera mainCam;
-    private int playerBodyLayerMask;
+    private ThirdPersonAimCamera fpLook;
+    private ThirdPersonAimCamera tpLook;
+
+    void Awake()
+    {
+        if (!firstPersonCamGO || !thirdPersonCamGO)
+        {
+            Debug.LogError("CameraSwitcher: Assign both camera GameObjects.");
+            enabled = false;
+            return;
+        }
+
+        // Cache all components
+        fpCam  = firstPersonCamGO.GetComponent<Camera>();
+        tpCam  = thirdPersonCamGO.GetComponent<Camera>();
+        fpLook = firstPersonCamGO.GetComponent<ThirdPersonAimCamera>();
+        tpLook = thirdPersonCamGO.GetComponent<ThirdPersonAimCamera>();
+
+        if (!fpCam || !tpCam || !fpLook || !tpLook)
+        {
+            Debug.LogError("CameraSwitcher: Both cameras must have Camera and ThirdPersonAimCamera.");
+            enabled = false;
+            return;
+        }
+    }
 
     void Start()
-{
-    mainCam = Camera.main;
-
-    thirdPersonCam.gameObject.SetActive(true);
-    firstPersonCam.gameObject.SetActive(false);
-    usingFirstPerson = false; // make sure it's synced
-
-    // Layer mask
-    int layerIndex = LayerMask.NameToLayer(PlayerBodyLayerName);
-    playerBodyLayerMask = 1 << layerIndex;
-
-    // ✅ Apply correct culling on start
-    mainCam.cullingMask |= playerBodyLayerMask; // show PlayerBody initially
-}
-
+    {
+        // Start in third person
+        SetActive(true);
+    }
 
     void Update()
     {
         if (Input.GetKeyDown(switchKey))
-            ToggleCameras();
+        {
+            Debug.Log("Switching camera mode");
+            bool isTPActive = thirdPersonCamGO.activeSelf;
+            SetActive(!isTPActive);
+        }
     }
 
-    void ToggleCameras()
+    void SetActive(bool useThirdPerson)
     {
-        usingFirstPerson = !usingFirstPerson;
+        thirdPersonCamGO.SetActive(useThirdPerson);
+        firstPersonCamGO.SetActive(!useThirdPerson);
 
-        // Switch the rigs
-        thirdPersonCam.gameObject.SetActive(!usingFirstPerson);
-        firstPersonCam.gameObject.SetActive(usingFirstPerson);
+        // Force correct camera mode
+        if (tpLook) tpLook.firstPerson = false;
+        if (fpLook) fpLook.firstPerson = true;
 
-        // Modify culling mask so PlayerBody is only visible in 3rd-person
-        if (usingFirstPerson)
-        {
-            // remove PlayerBody bit
-            mainCam.cullingMask &= ~playerBodyLayerMask;
-        }
-        else
-        {
-            // add PlayerBody bit back
-            mainCam.cullingMask |= playerBodyLayerMask;
-        }
+        // Make sure only one is tagged MainCamera
+        if (tpCam) tpCam.tag = useThirdPerson ? "MainCamera" : "Untagged";
+        if (fpCam) fpCam.tag = useThirdPerson ? "Untagged"   : "MainCamera";
+
+        // AudioListener — only one should be active
+        var fpAL = firstPersonCamGO.GetComponent<AudioListener>();
+        var tpAL = thirdPersonCamGO.GetComponent<AudioListener>();
+        if (fpAL) fpAL.enabled = !useThirdPerson;
+        if (tpAL) tpAL.enabled =  useThirdPerson;
     }
 }

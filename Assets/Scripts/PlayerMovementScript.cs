@@ -23,24 +23,24 @@ public class PlayerMovementScript : MonoBehaviour
         animator = GetComponent<Animator>();
         cc = GetComponent<CharacterController>();
         animator.applyRootMotion = false;
-        
+
         Cursor.lockState = CursorLockMode.Locked;
-        
+        Cursor.visible   = false;
     }
 
     void Update()
     {
-        var stats      = GetComponent<PlayerStats>();
-        bool pressJump = Input.GetButtonDown("Jump");
-        bool holdShift = Input.GetKey(KeyCode.LeftShift);
-        bool pressAtk  = Input.GetButtonDown("Fire1");
-        bool holdBlk   = Input.GetButton("Fire2");
-        float h        = Input.GetAxisRaw("Horizontal");
-        float v        = Input.GetAxisRaw("Vertical");
+        var   stats     = GetComponent<PlayerStats>();
+        bool  pressJump = Input.GetButtonDown("Jump");
+        bool  holdShift = Input.GetKey(KeyCode.LeftShift);
+        bool  pressAtk  = Input.GetButtonDown("Fire1");
+        bool  holdBlk   = Input.GetButton("Fire2");
+        float h         = Input.GetAxisRaw("Horizontal");
+        float v         = Input.GetAxisRaw("Vertical");
 
         // ─── 1) Jump Input & Stamina ───────────────────────────
         if (cc.isGrounded) lastGroundedTime = Time.time;
-        if (pressJump)   jumpPressedTime  = Time.time;
+        if (pressJump)     jumpPressedTime  = Time.time;
 
         bool canJump =
             lastGroundedTime.HasValue &&
@@ -52,7 +52,6 @@ public class PlayerMovementScript : MonoBehaviour
         {
             if (stats.TryUseStamina(stats.jumpStaminaCost))
             {
-                // FIRE THE TRIGGER, not a Bool
                 animator.SetTrigger("JumpTrigger");
                 yVelocity = jumpSpeed;
             }
@@ -66,12 +65,11 @@ public class PlayerMovementScript : MonoBehaviour
         // ─── 2) Gravity ────────────────────────────────────────
         yVelocity += Physics.gravity.y * Time.deltaTime;
 
-     // ─── 3) Camera-relative input ──────────────────────────
+        // ─── 3) Camera-relative input ──────────────────────────
         Transform cam = Camera.main.transform;
         Vector3 camF  = cam.forward; camF.y = 0; camF.Normalize();
-        Vector3 camR  = -cam.right;  camR.y = 0; camR.Normalize(); // <- FIXED LINE
+        Vector3 camR  = cam.right;   camR.y = 0; camR.Normalize();   // ← FIX: was -cam.right (inverted)
         Vector3 dir   = (camF * v + camR * h).normalized;
-
 
         // ─── 4) Run/walk + drain ──────────────────────────────
         bool walking = dir.sqrMagnitude > 0f;
@@ -88,9 +86,8 @@ public class PlayerMovementScript : MonoBehaviour
         animator.SetBool("IsRunning", running);
 
         float speed = running ? runSpeed : walkSpeed;
-        if (stats.hasSpeedBoots)
-            speed *= 1.3f;
-            
+        if (stats.hasSpeedBoots) speed *= 1.3f;
+
         Vector3 motion = dir * speed;
         motion.y = yVelocity;
 
@@ -99,7 +96,6 @@ public class PlayerMovementScript : MonoBehaviour
         if ((flags & CollisionFlags.Below) != 0 && yVelocity < 0f)
         {
             yVelocity = -2f;
-            // no more animator.SetBool("IsJumping", false);
         }
 
         // ─── 6) Rotation ───────────────────────────────────────
@@ -122,21 +118,15 @@ public class PlayerMovementScript : MonoBehaviour
                 stats.FlashStaminaBar();
         }
 
-     // …at top of Update(), after caching stats…
-
-
-// ─── DEFEND (hold + stamina) ───────────────────────────
-
-    if (holdBlk && stats.currentStamina >= stats.blockCost * Time.deltaTime)
-    {
-        stats.currentStamina -= stats.blockCost * Time.deltaTime;
-        animator.SetBool("IsBlocking", true);
-    }
-    else
-    {
-        animator.SetBool("IsBlocking", false);
-    }
-
-
+        // ─── 8) Defend (hold + stamina) ────────────────────────
+        if (holdBlk && stats.currentStamina >= stats.blockCost * Time.deltaTime)
+        {
+            stats.currentStamina -= stats.blockCost * Time.deltaTime;
+            animator.SetBool("IsBlocking", true);
+        }
+        else
+        {
+            animator.SetBool("IsBlocking", false);
+        }
     }
 }
