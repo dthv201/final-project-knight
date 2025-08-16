@@ -112,6 +112,7 @@ public void TakeDamage(float amount)
 
     if (currentHealth <= 0f)
     {
+        Debug.Log("Player died.");
         Respawn(); // 🛡 Respawn instead of dying
     }
 }

@@ -6509,7 +6509,7 @@ GameObject:
   - component: {fileID: 1952337319}
   m_Layer: 0
   m_Name: ResPoint
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7735,6 +7735,10 @@ PrefabInstance:
       propertyPath: staminaFill
       value: 
       objectReference: {fileID: 1445768134}
+    - target: {fileID: 3167564926762665463, guid: 1b3f5b6a8813f2945bbcf4e706a44dc7, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1952337321}
     - target: {fileID: 6977233575747619054, guid: 1b3f5b6a8813f2945bbcf4e706a44dc7, type: 3}
       propertyPath: m_TagString
       value: Sword
