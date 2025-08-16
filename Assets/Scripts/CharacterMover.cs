@@ -5,8 +5,8 @@ using UnityEngine;
 public class CharacterMover : MonoBehaviour
 {
     [Header("Patrol Settings")]
-    public Transform pointA;
-    public Transform pointB;
+    // public Transform pointA;
+    // public Transform pointB;
     public float speed = 2f;
 
     [Header("Detection Settings")]
@@ -28,52 +28,52 @@ public class CharacterMover : MonoBehaviour
     {
         animator   = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
-        target     = pointB.position;
+        // target     = pointB.position;
     }
 
     void Update()
     {
         if (isTurning) return;
 
-        PatrolMovement();
+        // PatrolMovement();
         CheckSightAndPenalize();
     }
 
-    void PatrolMovement()
-    {
-        Vector3 dir = target - transform.position;
-        dir.y = 0f;
+    // void PatrolMovement()
+    // {
+    //     Vector3 dir = target - transform.position;
+    //     dir.y = 0f;
 
-        if (dir.magnitude > 0.5f)
-        {
-            isWalking = true;
-            controller.Move(dir.normalized * speed * Time.deltaTime);
-            transform.rotation = Quaternion.Slerp(
-                transform.rotation,
-                Quaternion.LookRotation(dir),
-                Time.deltaTime * 5f
-            );
-            if (animator) animator.SetFloat("Speed", speed);
-        }
-        else if (isWalking)
-        {
-            isWalking = false;
-            if (animator)
-            {
-                animator.SetFloat("Speed", 0f);
-                animator.SetTrigger("Turn");
-            }
-            StartCoroutine(HandleTurnAndSwitchTarget());
-        }
-    }
+    //     if (dir.magnitude > 0.5f)
+    //     {
+    //         isWalking = true;
+    //         controller.Move(dir.normalized * speed * Time.deltaTime);
+    //         transform.rotation = Quaternion.Slerp(
+    //             transform.rotation,
+    //             Quaternion.LookRotation(dir),
+    //             Time.deltaTime * 5f
+    //         );
+    //         if (animator) animator.SetFloat("Speed", speed);
+    //     }
+    //     else if (isWalking)
+    //     {
+    //         isWalking = false;
+    //         if (animator)
+    //         {
+    //             animator.SetFloat("Speed", 0f);
+    //             animator.SetTrigger("Turn");
+    //         }
+    //         // StartCoroutine(HandleTurnAndSwitchTarget());
+    //     }
+    // }
 
-    IEnumerator HandleTurnAndSwitchTarget()
-    {
-        isTurning = true;
-        yield return new WaitForSeconds(1f);
-        target = (target == pointA.position) ? pointB.position : pointA.position;
-        isTurning = false;
-    }
+    // IEnumerator HandleTurnAndSwitchTarget()
+    // {
+    //     isTurning = true;
+    //     yield return new WaitForSeconds(1f);
+    //     target = (target == pointA.position) ? pointB.position : pointA.position;
+    //     isTurning = false;
+    // }
 
     void CheckSightAndPenalize()
     {
@@ -83,22 +83,7 @@ public class CharacterMover : MonoBehaviour
 
         if (Physics.Raycast(origin, forward, out RaycastHit hit, rayLength, playerLayer))
         {
-            // Did we hit the player?
-            var stats = hit.transform.GetComponentInParent<PlayerStats>();
-            if (stats != null)
-            {
-                // 1) Deal 50 damage
-                stats.TakeDamage(spotDamage);
-                Debug.Log($"[Dragon] Spotted player! -{spotDamage} HP (now {stats.currentHealth})");
-
-                // 2) Teleport back to save point
-                TeleportPlayerToSave();
-
-                // 3) Prevent multiple penalties until next frame
-                //    (so they don't lose all 50*frames HP instantly)
-                //    simply disable further checks this update
-                return;
-            }
+            
         }
     }
 
