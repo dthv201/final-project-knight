@@ -1,20 +1,29 @@
-using UnityEngine;
+// using UnityEngine;
 
-public class PlayerSpawner : MonoBehaviour
-{
-    void Start()
-    {
-        GameObject player = GameObject.FindWithTag("Player");
-        GameObject spawn  = GameObject.Find("ResPoint");
+// public class PlayerSpawner : MonoBehaviour
+// {
+//     public GameObject playerPrefab;  // assign in Inspector
+//     public Transform spawnPoint;     // assign in Inspector
 
-        if (player != null && spawn != null)
-        {
-            player.transform.position = spawn.transform.position;
-            player.transform.rotation = spawn.transform.rotation;
+//     void Start()
+//     {
+//         if (GameObject.FindWithTag("Player") != null)
+//         {
+//             Debug.Log("[PlayerSpawner] Player already exists — not spawning again.");
+//             return;
+//         }
 
-            // Optional: reset velocity if using Rigidbody
-            Rigidbody rb = player.GetComponent<Rigidbody>();
-            if (rb != null) rb.linearVelocity = Vector3.zero;
-        }
-    }
-}
+//         if (!playerPrefab || !spawnPoint)
+//         {
+//             Debug.LogError("PlayerSpawner is missing prefab or spawn point.");
+//             return;
+//         }
+
+//         GameObject player = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
+//         player.tag = "Player";
+
+//         // DontDestroyOnLoad(player);
+
+//         Debug.Log("[PlayerSpawner] Spawned new player.");
+//     }
+// }

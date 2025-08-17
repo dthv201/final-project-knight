@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ThirdPersonAimCamera : MonoBehaviour
 {
@@ -71,14 +72,14 @@ public class ThirdPersonAimCamera : MonoBehaviour
 
         if (firstPerson)
         {
-             Debug.Log("First-person camera active. Pos: " + transform.position);
+ 
             // FP: DO NOT parent to animated head; place by offset and use rot directly
             transform.position = target.TransformPoint(fpLocalOffset);
             transform.rotation = rot;
         }
         else
         {
-             Debug.Log("Third-person camera active. Pos: " + transform.position);
+     
             // TP: orbit from pivot; NO LookAt (avoids fighting rotation)
             Vector3 pivot = target.position + Vector3.up * height;
             Vector3 back  = rot * Vector3.back;

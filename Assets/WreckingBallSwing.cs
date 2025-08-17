@@ -25,7 +25,9 @@ public class WreckingBallSwing : MonoBehaviour
         GameObject playerGO = GameObject.FindWithTag("Player");
         if (playerGO != null)
         {
+            Debug.Log("[WreckingBallSwing] Player found, initializing PlayerStats.");
             player = playerGO.GetComponent<PlayerStats>();
+            
         }
     }
 
@@ -37,24 +39,29 @@ public class WreckingBallSwing : MonoBehaviour
 
   void OnTriggerEnter(Collider other)
 {
-    if (other.CompareTag("Player") && Time.time - lastHitTime > hitCooldown)
-    {
-        lastHitTime = Time.time;
-
-        if (player != null)
+        if (other.CompareTag("Player") && Time.time - lastHitTime > hitCooldown)
         {
-            float hpBeforeHit = player.currentHealth;
+            lastHitTime = Time.time;
 
-            player.TakeDamage(attackDamage);
-            Debug.Log($"[WreckingBall] Player hit! -{attackDamage} HP (from {hpBeforeHit})");
-
-            if (Mathf.Approximately(hpBeforeHit, 50f))
+            if (player != null)
             {
-                TeleportPlayerToRespawn(player.transform);
+                float hpBeforeHit = player.currentHealth;
+
+                player.TakeDamage(attackDamage);
+                Debug.Log($"[WreckingBall] Player hit! -{attackDamage} HP (from {hpBeforeHit})");
+
+                if (Mathf.Approximately(hpBeforeHit, 50f))
+                {
+                    TeleportPlayerToRespawn(player.transform);
+                }
+            }
+            if (player == null)
+            {
+                Debug.LogWarning("[WreckingBall] PlayerStats component not found!");
             }
         }
     }
-}
+
 
 
     void TeleportPlayerToRespawn(Transform playerTransform)
