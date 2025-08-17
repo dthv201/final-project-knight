@@ -6,7 +6,7 @@ public class TryAgain: MonoBehaviour
     // Called when "Yes" button is clicked
     public void OnYesClicked()
     {
-        SceneManager.LoadScene("Forest"); // Replace with your actual puzzle scene name
+        SceneManager.LoadScene("ThirdMission"); // Replace with your actual puzzle scene name
     }
 
     // Called when "No" button is clicked

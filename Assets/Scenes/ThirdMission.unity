@@ -4264,6 +4264,7 @@ MonoBehaviour:
   playerMover: {fileID: 0}
   loadWinOnSolve: 1
   winSceneName: Win
+  loseSceneName: Lose
   resetOnSolve: 0
   teleportLockSeconds: 0.35
 --- !u!4 &934459475
@@ -6762,7 +6763,8 @@ PrefabInstance:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8207379194549504233, guid: 1b3f5b6a8813f2945bbcf4e706a44dc7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10922,6 +10924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0c2e5aa5dffa840a9a9a131db09ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 0}
+  spawnPoint: {fileID: 0}
 --- !u!4 &1455915001
 Transform:
   m_ObjectHideFlags: 0
