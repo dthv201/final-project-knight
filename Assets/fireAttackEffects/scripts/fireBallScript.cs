@@ -54,7 +54,6 @@ namespace fireAttackVFXNameSpace
                 if (stats != null)
                 {
                     stats.TakeDamage(damage);
-                    Debug.Log("[Fireball] Hit player → -" + damage + " HP");
                 }
             }
 

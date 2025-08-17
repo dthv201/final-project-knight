@@ -24,7 +24,7 @@ public class PuzzleScript : MonoBehaviour
     [Header("Behavior")]
     public bool   loadWinOnSolve = true;
     public string winSceneName   = "Win";
-    public string loseSceneName  = "Lose";   // 👈 new lose scene
+    public string loseSceneName  = "TryAgain";   // 👈 new lose scene
     public bool   resetOnSolve   = false;
     public float  teleportLockSeconds = 0.35f;
 

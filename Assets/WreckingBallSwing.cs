@@ -31,8 +31,6 @@ public class WreckingBallSwing : MonoBehaviour
 
         // Safety: recommend trigger on the ball collider so OnTriggerEnter fires reliably.
         var col = GetComponent<Collider>();
-        if (col && !col.isTrigger)
-            Debug.LogWarning("[WreckingBall] Collider is not set as Trigger. Consider enabling isTrigger.");
     }
 
     void FixedUpdate()
@@ -55,7 +53,6 @@ public class WreckingBallSwing : MonoBehaviour
             stats = FindObjectOfType<PlayerStats>();
             if (!stats)
             {
-                Debug.LogWarning("[WreckingBall] PlayerStats component not found!");
                 return;
             }
         }
@@ -64,7 +61,6 @@ public class WreckingBallSwing : MonoBehaviour
 
         float hpBefore = stats.currentHealth;
         stats.TakeDamage(attackDamage);
-        Debug.Log($"[WreckingBall] Hit for -{attackDamage}. HP: {hpBefore} → {stats.currentHealth}");
 
         // Teleport decision is based on HP AFTER damage, not exactly-equal checks
         if (teleportOnLowHP && stats.currentHealth <= teleportBelowHP && respawnPoint)
@@ -77,7 +73,6 @@ public class WreckingBallSwing : MonoBehaviour
     {
         if (!respawnPoint)
         {
-            Debug.LogWarning("[WreckingBall] Respawn point not assigned!");
             return;
         }
 

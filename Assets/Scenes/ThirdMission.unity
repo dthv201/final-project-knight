@@ -4264,7 +4264,7 @@ MonoBehaviour:
   playerMover: {fileID: 0}
   loadWinOnSolve: 1
   winSceneName: Win
-  loseSceneName: Lose
+  loseSceneName: TryAgain
   resetOnSolve: 0
   teleportLockSeconds: 0.35
 --- !u!4 &934459475

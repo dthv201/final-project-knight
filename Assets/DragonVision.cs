@@ -26,11 +26,8 @@ public class DragonVision : MonoBehaviour
         {
             // 1) Damage
             playerStats.TakeDamage(sightDamage);
-            Debug.Log($"DragonVision: spotted player, -{sightDamage} HP.");
-
-            // 2) Teleport
+               // 2) Teleport
             player.position = savePoint.position;
-            Debug.Log("DragonVision: teleported player back to save point.");
         }
     }
 }

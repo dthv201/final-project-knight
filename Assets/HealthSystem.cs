@@ -7,7 +7,6 @@ public class HealthSystem : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
-        Debug.Log($"Health reduced by {damage}. Current health: {health}");
     }
 
 }
