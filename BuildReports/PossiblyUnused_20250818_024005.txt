@@ -1,0 +1,1117 @@
+Possibly Unused Assets (השוואה ל-UsedAssets CSV האחרון):
+— שים לב: זו רשימת מועמדים בלבד. בדוק ידנית לפני מחיקה.
+
+Assets/Hovl Studio/Magic effects pack/Materials/Arrow1.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash red.prefab
+Assets/Hovl Studio/Magic effects pack/Textures/Splat.png
+Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Venge.mat
+Assets/AllStarCharacterLibrary/Scripts/CameraAngles/CamTarget.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect green.prefab
+Assets/Free Wood Door Pack/Texture/Door_12/Door_12_Normal.tga
+Assets/fireAttackEffects/textures/fireMeteorsRingTexture.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode blue.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_BackwardRight.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_Right [RM].fbx
+Assets/Hovl Studio/Magic effects pack/Materials/CraterFree1.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtAmbientOcclusionMap.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Jump01 [RM].controller
+Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Milk.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01.fbx
+Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Pink.mat
+Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Teal.mat
+Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Venge.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Brown.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Effects/Emmitters/HitReport.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/HDRP/plane_divided_DefaultMaterial_Normal.png
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/BranchesOak001_Smooth.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Forward.fbx
+Assets/fireAttackEffects/textures/airTextureRotated.png
+Assets/Hovl Studio/Magic effects pack/Textures/Point1n.png
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD2_p_hut_003.fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Brown.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Fall01.controller
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/PBR/Stone_Wall_Greek_03_AmbientOcclusion.png
+Assets/AllStarCharacterLibrary/Models/Characters/A03_LOD.tga
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Materials/HumanBasicMotions_Floor.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Coffe.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_ForwardRight.fbx
+Assets/Free Wood Door Pack/Texture/BG.tga
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_BackwardRight.controller
+Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_White.mat
+Assets/Hovl Studio/Magic effects pack/Materials/Gradient2.mat
+Assets/Kevin Iglesias/Human Animations/Scripts/UpperBodyAnimations-SpineProxy.url
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/HealthBar.prefab
+Assets/Hovl Studio/Magic effects pack/Settings/PP low.asset
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_Right.fbx
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Sprint01_ForwardRight.controller
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/RadialAngler.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Plexus AoE.prefab
+Assets/Medieval Weapon Pack/Render Pipelines/HDRP.unitypackage
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust puff.prefab
+Assets/Clapping Sound Effects.mp3
+Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Coffe.prefab
+Assets/Charecters/Skeleton/Textures/SceletonVersion3.tga
+Assets/HamsterCage/install_RP_Versions.txt
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Medium/Conifer Medium [Normal] [Trans] [Smoothness].png
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodPlanks.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_Backward.controller
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD2_p_hut_003.mtl
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_Left.fbx
+Assets/Medieval Weapon Pack/Prefabs/Unused/Sheath.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/HDRP/plane_divided_DefaultMaterial_MaskMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_White.prefab
+Assets/HamsterCage/3dobjects/hamsterCage.fbx
+Assets/Medieval Weapon Pack/Scenes/Showcase.unity
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01.fbx
+Assets/AllStarCharacterLibrary/Scripts/CameraAngles/Camera.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_ForwardLeft [RM].fbx
+Assets/Simple_Door/Materials/Floor_Mat.mat
+Assets/Scenes/Forest.unity
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Shaders/Includes/CTI URP SG Lighting.hlsl
+Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Brown.mat
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HWalkF.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks white.prefab
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+Assets/Free Wood Door Pack/Texture/Door_4/Door_4_AO.tga
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Talking.controller
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_Left.controller
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/HDRP/02.mat
+Assets/FourEvilDragonsHP/Materials/DragonUsurper/RedHP.mat
+Assets/AllStarCharacterLibrary/Models/StatusBars/GreenHealth.tga
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardRight.fbx
+Assets/Free Wood Door Pack/Texture/Door_12/Door_12_Spec.tga
+Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HIdle.fbx
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/BranchesOak001.tif
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Backward [RM].fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_Right.fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HCombatRunF.fbx
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/FloorOverlay.mat
+Assets/Hovl Studio/Magic effects pack/Textures/TechCircle2.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab
+Assets/Medieval Weapon Pack/Prefabs/Unused/Axe_02.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/B&BIcon.png
+Assets/TerrainData_d3c39626-dc8a-4523-bf5d-f858c163833c.asset
+Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Brown.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust ground.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Black.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/Electro.mat
+Assets/Medieval Weapon Pack/Render Pipelines/URP.unitypackage
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HStepLeft.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/PBR/Stone_Wall_Greek_04_BaseColor.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield pink.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_ForwardLeft [RM].fbx
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/AllStar.mat
+Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Milk.mat
+Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Milk.mat
+Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat
+Assets/Free Wood Door Pack/Mesh/Knob_1.FBX
+Assets/HamsterCage/exampleScene/ReflectionProbe-1.exr
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_BackwardLeft [RM].fbx
+Assets/Readme.asset
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/red.mat
+Assets/Shered/CameraSwitcher.prefab
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Bare/Conifer Bare [Albedo].png
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/wood/T_wood_roughness.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/PBR/Stone_Wall_Greek_04_Height.png
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneAmbientOcclusionMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Venge.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat
+Assets/Settings/Build Profiles/New Windows Profile.asset
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_White.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodBark.mat
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Arms/Human Arm Right Mask.mask
+Assets/Free Wood Door Pack/Texture/Door_6/Door_6_AO.tga
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/PBR/Stone_Wall_Greek_02_Roughness.png
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Begin.fbx
+Assets/AllStarCharacterLibrary/Models/Materials/Effects/Emmitters/ParticleHit.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Crystals crossfade 2.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAmbientOcclusionMap.png
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/thatch_no_opacity/thatch_roughness.png
+Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Milk.mat
+Assets/HamsterCage/exampleScene/Lightmap-1_comp_light.exr
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Black.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Backward.fbx
+Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Milk.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Left.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_ForwardLeft.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassAmbientOcclusionMap.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_Forward.fbx
+Assets/TerrainData_edb0b1da-f21a-48bc-81ba-0a81aee0fdcd.asset
+Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Milk.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardLeft.fbx
+Assets/Medieval Weapon Pack/Models/Unused/Sheath.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab
+Assets/BTM_Assets/BTM_Items_Gems/Materials/Backdrop.mat
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/PBR/Mountain_Village_Wall_01_Normal.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Coffe.prefab
+Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+Assets/AllStarCharacterLibrary/Scenes/FightSettings.lighting
+Assets/Hovl Studio/Magic effects pack/Materials/Trail67.mat
+Assets/ALP_Assets/Big Oak Tree FREE/Scenes/BigOakScene.unity
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Demo_Scene.unity
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD1_p_hut_003.fbx
+Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Milk.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassSpecularMap.png
+Assets/Free Wood Door Pack/Texture/Door_6/Door_6_Albedo.tga
+Assets/Hovl Studio/Magic effects pack/Materials/Additive.mat
+Assets/Hovl Studio/Magic effects pack/Materials/GlowFree1.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks green.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/AllStarCharacterCollection.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Venge.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Milk.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkNormalMap.png
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/Gameplay05.png
+Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Yellow.mat
+Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Black.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Social/Conversation/HumanM@Talk01.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal red.prefab
+Assets/Hovl Studio/Magic effects pack/Textures/Slash.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_ForwardLeft.fbx
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Tall/Conifer Tall A.tif
+Assets/AllStarCharacterLibrary/Models/Materials/SexySidekicks.com.png
+Assets/Forst/Conifers [BOTD]/Sources/Textures/BODT Conifer x Stump [Normal] [AO] [Specular].tif
+Assets/Medieval Weapon Pack/Prefabs/Unused/Shield_02.prefab
+Assets/TutorialInfo/Icons/URP.png
+Assets/Free Wood Door Pack/Texture/Door_3/Door_3_Spec.tga
+Assets/ALP_Assets/Big Oak Tree FREE/Scenes/Graphics Settings.rtf
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Right [RM].fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_ForwardRight [RM].fbx
+Assets/Forst/Conifers [BOTD]/Sources/Conifer Tall/SM Conifer Tall LOD0.asset
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_Forward [RM].fbx
+Assets/Medieval Weapon Pack/Models/Unused/Sword_01.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle.prefab
+Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Yellow.mat
+Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Milk.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneAlbedo.png
+Assets/Charecters/Skeleton/Textures/SceletonVersion2.tga
+Assets/ALP_Assets/Big Oak Tree FREE/Shaders/ALP Billboard Cross Wind.shader
+Assets/Free Wood Door Pack/Texture/Door_3/Door_3_Albedo.tga
+Assets/Simple_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_Normal.png
+Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Black.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield yellow.prefab
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/barkOak001.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Yellow.prefab
+Assets/HamsterCage/exampleScene/Lightmap-1_comp_dir.png
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02-Idle01.fbx
+Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Brown.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_BackwardLeft.controller
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_ForwardRight [RM].fbx
+Assets/Medieval Weapon Pack/Models/Unused/Shield_03.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/AoE slash blue.prefab
+Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_White.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_ForwardRight.controller
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/AoE slash orange.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_ForwardRight [RM].fbx
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/BillboardBigOak01.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Shaders/Includes/CTI URP SG BillboardVertex.hlsl
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_Left.controller
+Assets/Scenes/Start.unity
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/Run.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 [RM].fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab
+Assets/Free Wood Door Pack/Texture/Door_11/Door_11_AO.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Brown.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Black.prefab
+Assets/Medieval Weapon Pack/Models/Unused/Shield_02.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Love aura.prefab
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/attackTarget.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/HDRP/plane_divided_DefaultMaterial_MaskMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Milk.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Left.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/PBR/Stone_Wall_Greek_03_Roughness.png
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 [RM] - Begin.fbx
+Assets/AllStarCharacterLibrary/Scripts/Abilities/IHCombo.asset
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_BackwardRight [RM].fbx
+Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Brown.mat
+Assets/Free Wood Door Pack/Texture/Door_4/Door_4_Spec.tga
+Assets/Hovl Studio/Magic effects pack/Materials/FlashFree1.mat
+Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_White.mat
+Assets/ALP_Assets/Big Oak Tree FREE/Models/OakBigTree01.fbx
+Assets/HamsterCage/ExampleSceneAssets/Textures/holzplatte_02b_normal.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_ForwardRight.controller
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Fall01.fbx
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Prefabs/Human_BasicMotionsDummy_F.prefab
+Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Yellow.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/README.pdf
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD2_p_hut_003.obj
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/URP/plane_divided_DefaultMaterial_AlbedoTransparency.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Brown.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/FreeModelFridays.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_Forward [RM].fbx
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Demo/Gray.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_Left [RM].fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode white.prefab
+Assets/Free Wood Door Pack/Scene/Demo.unity
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/PBR/Mountain_Village_Wall_01_AmbientOcclusion.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Yellow.prefab
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/thatch_no_opacity/thatch_n.png
+Assets/Free Wood Door Pack/Texture/Door_8/Door_8_Normal.tga
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WildGrass.mat
+Assets/Hovl Studio/Magic effects pack/Textures/Crystal1_MS.png
+Assets/Medieval Weapon Pack/Models/Unused/Axe_02.fbx
+Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Coffe.mat
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/wood/T_wood_normal.png
+Assets/Texture/Knight_specular.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_White.prefab
+Assets/Free Wood Door Pack/Texture/Door_8/Door_8_Spec.tga
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Turn01_Left [RM].controller
+Assets/AllStarCharacterLibrary/Models/Characters/Ninjas/Materials/Ninja.mat
+Assets/HamsterCage/ExampleSceneAssets/Sky/Sky.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/RoughStone.mat
+Assets/Hovl Studio/Magic effects pack/Textures/CraterFree1.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Coffe.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/URP/plane_divided_DefaultMaterial_MetallicSmoothness.png
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/attackHand.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Fall01.fbx
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyGlide.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks blue.prefab
+Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Albedo.tga
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/PBR/Stone_Wall_Greek_03_Normal.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Milk.prefab
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Human Body Upper Mask.mask
+Assets/Hovl Studio/Magic effects pack/Demo scene/Magic effects second demo.unity
+Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/Branches001.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_ForwardLeft.controller
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD1_p_hut_003.obj
+Assets/FourEvilDragonsHP/Materials/Stage.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Stone slash.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Milk.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing yellow.prefab
+Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Blue.prefab
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Demo/Conifers Cast URP.unity
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Sprint01_ForwardRight.controller
+Assets/Free Wood Door Pack/Texture/Door_11/Door_11_Spec.tga
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_Forward.controller
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Sprint01_Left.controller
+Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Venge.mat
+Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Coffe.mat
+Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Coffe.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Crystals front attack.prefab
+Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Normal.tga
+Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Silver.mat
+Assets/AllStarCharacterLibrary/Models/Characters/Ninjas/SuperLowNinja.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_White.prefab
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD1_p_hut_003.mtl
+Assets/Free Wood Door Pack/Texture/Door_11/Door_11_Albedo.tga
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Left [RM].fbx
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Hands/Human Hand Right Mask.mask
+Assets/Hovl Studio/Magic effects pack/Materials/Crystal1.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneNormalMap.png
+Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Brown.mat
+Assets/Hovl Studio/Magic effects pack/Textures/ProjectileFree1.png
+Assets/Medieval Weapon Pack/Shaders/BRP/BRP_MaskMap.shader
+Assets/Free Wood Door Pack/Texture/Door_8/Door_8_Albedo.tga
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke loop.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Right.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtAmbientOcclusionMap.png
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/GroupShot.png
+Assets/Hovl Studio/Magic effects pack/Textures/Crystal1_Normal.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Milk.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkAmbientOcclusionMap.png
+Assets/fireAttackEffects/pipelineAsset/fireAttackEffectsPipelineAsset.asset
+Assets/Scenes/Forest/NavMesh-NavMesh Surface.asset
+Assets/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-0.exr
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/GroupShot.mat
+Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Black.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Right.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/HDRP/plane_divided_DefaultMaterial_BaseMap.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode yellow.prefab
+Assets/HamsterCage/exampleScene/ReflectionProbe-0.exr
+Assets/Hovl Studio/Magic effects pack/Textures/Trail67.png
+Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Yellow.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks yellow.prefab
+Assets/Hovl Studio/Magic effects pack/Textures/Circle.png
+Assets/Free Wood Door Pack/Texture/Door_5/Door_5_Normal.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Coffe.prefab
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/thatch_no_opacity/thatch_bc.png
+Assets/FourEvilDragonsHP/Animators/TerrorbringerCTRL.controller
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardLeft [RM].fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Right.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneNormalMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Venge.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_ForwardLeft [RM].fbx
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/Gameplay04.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks pink.prefab
+Assets/Fantasy knight/Base mesh/Materials/Mat_Armor.mat
+Assets/AllStarCharacterLibrary/Scenes/Fight.unity
+Assets/AllStarCharacterLibrary/Scripts/CameraAngles/DefaultCamAngle.asset
+Assets/Hovl Studio/Magic effects pack/Textures/TechCircle.png
+Assets/Free Wood Door Pack/Texture/Door_7/Door_7_AO.tga
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/FreeModelFridays.png
+Assets/Forst/Conifers [BOTD]/Conifers [BOTD] 2.0.pdf
+Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Venge.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtSpecularMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Yellow.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Venge.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/DryDirt.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardRight.fbx
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/wood/T_brightwood_basecolor.png
+Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Yellow.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke ground.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Turn01_Right [RM].controller
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust hemisphere loop.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_BackwardLeft.controller
+Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_White.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Star aura.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Love hit.prefab
+Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_White.mat
+Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_White.mat
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/HDRP/plane_divided_DefaultMaterial_Normal.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing white.prefab
+Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Milk.mat
+Assets/Lose sound effects.mp3
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_BackwardRight.fbx
+Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Yellow.mat
+Assets/Forst/Conifers [BOTD]/Sources/Textures/BODT Conifer  Branches [Albedo] [Alpha].tif
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_BackwardRight [RM].fbx
+Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_White.mat
+Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Venge.mat
+Assets/AllStarCharacterLibrary/Models/Characters/A03.png
+Assets/Settings/Mobile_Renderer.asset
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing pink.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/SuperMaleUpperBody.mask
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyIdle.fbx
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Tall/Conifer Tall  [Normal] [Trans] [Smoothness].png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Milk.prefab
+Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Brown.mat
+Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Forward [RM].fbx
+Assets/Free Wood Door Pack/Texture/Door_14/Door_14_Normal.tga
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Turn01_Left [RM].controller
+Assets/Forst/Conifers [BOTD]/Conifers_URP.unitypackage
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_ForwardRight [RM].fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/PBR/Stone_Wall_Greek_02_Normal.png
+Assets/fireAttackEffects/textures/trailTexture.png
+Assets/Free Wood Door Pack/Texture/Materials/BG.mat
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Shaders/Includes/CTI URP SG BillboardVertexSimple.hlsl
+Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Debuff.prefab
+Assets/Free Wood Door Pack/Texture/Door_12/Door_12_AO.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Black.prefab
+Assets/Simple_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_MetallicSmoothness.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Milk.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Forward [RM].fbx
+Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Venge.mat
+Assets/Hovl Studio/Magic effects pack/Materials/MagicCircle2.mat
+Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Venge.mat
+Assets/Free Wood Door Pack/Texture/Door_6/Door_6_Normal.tga
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/HDRP/03.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Venge.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_Left [RM].fbx
+Assets/Free Wood Door Pack/Texture/Door_8/Door_8_AO.tga
+Assets/Hovl Studio/Magic effects pack/Materials/TechCircle2.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Yellow.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Milk.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneAmbientOcclusionMap.png
+Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Brown.mat
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Shaders/Includes/CTI URP SG Utils.hlsl
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/HDRP/plane_divided_DefaultMaterial_BaseMap.png
+Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Venge.mat
+Assets/Shered/Mana and Health .prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Brown.prefab
+Assets/Charecters/Texture/Knight_diffuse.png
+Assets/AllStarCharacterLibrary/Models/StatusBars/RedHealth.tga
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Shaders/Includes/CTI URP SG BillboardFragment.hlsl
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/green.mat
+Assets/Free Wood Door Pack/Texture/Door_10/Door_10_Spec.tga
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_BackwardLeft.controller
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/B&BIcon.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Right.fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Coffe.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_BackwardLeft [RM].fbx
+Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Venge.mat
+Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Venge.mat
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/Land.fbx
+Assets/HamsterCage/exampleScene/LightingData.asset
+Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Coffe.mat
+Assets/Free Wood Door Pack/Texture/Door_14/Door_14_Albedo.tga
+Assets/HamsterCage/ExampleSceneAssets/exampleSceneSettings.lighting
+Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Black.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/PBR/Mountain_Village_Wall_01_Roughness.png
+Assets/AllStarCharacterLibrary/Models/StatusBars/HealthBar.fbm/GreenHealth.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Brown.prefab
+Assets/Free Wood Door Pack/Texture/Door_13/RGB.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Venge.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_White.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Crystals crossfade.prefab
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/Angler.mat
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Prefabs/PF Conifer Tall BOTD URP.prefab
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/wood/burned_wood/base_color.png
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/KnightWings.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Sprint01_ForwardLeft.controller
+Assets/Shered/Third Person Aim Camera.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_Backward.fbx
+Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardLeft [RM].fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Milk.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Brown.mat
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/wood/burned_wood/Roughness.png
+Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Black.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Black.prefab
+Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Orange.mat
+Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Black.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Red energy explosion.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_Backward.controller
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/teal.mat
+Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Spec.tga
+Assets/Hovl Studio/Magic effects pack/Textures/Flare.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Yellow.prefab
+Assets/NewBrush 2.brush
+Assets/AllStarCharacterLibrary/Models/Characters/Ninjas/Ninja.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/URP/plane_divided_DefaultMaterial_AlbedoTransparency.png
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/Marina@SpinningAttackLunge.FBX
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Sprint01_Right.controller
+Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Arms/Human Arms Mask.mask
+Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Venge.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassDisplacementMap.png
+Assets/HamsterCage/_Install_RP_Versions_/Install_URP.unitypackage
+Assets/Hovl Studio/Magic effects pack/Materials/CrystalFree1.mat
+Assets/FourEvilDragonsHP/Materials/DragonUsurper/BlueHP.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_Left.controller
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Small/Conifer Small A.tif
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/FloorTile.FBX
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HIdle.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/URP/plane_divided_DefaultMaterial_MetallicSmoothness.png
+Assets/Medieval Weapon Pack/Textures/Axes/Albedo_Axes.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Yellow.prefab
+Assets/HamsterCage/exampleScene/Lightmap-0_comp_dir.png
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_Backward [RM].fbx
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/SuperHeroes.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Weapons.mat
+Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Black.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Fall01.controller
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD0_p_hut_003.obj
+Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Coffe.prefab
+Assets/Forst/Conifers [BOTD]/Sources/Conifer Tall/SM Conifer Tall LOD1.asset
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Demo/Conifers Cast URP Lighting Settings.lighting
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_Left [RM].fbx
+Assets/Free Wood Door Pack/Texture/Door_4/Door_4_Albedo.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Venge.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_Forward.controller
+Assets/FourEvilDragonsHP/Animators/SouleaterCTRL.controller
+Assets/Medieval Weapon Pack/Models/Unused/Axe_01.fbx
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/movementTarget.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemaleSpineAvaterMask.mask
+Assets/AnimetionControllers/Material Palette.asset
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardRight [RM].fbx
+Assets/Hovl Studio/Magic effects pack/Textures/Heart.png
+Assets/Forst/Conifers [BOTD]/Conifers_BIRP.unitypackage
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/NavCone.FBX
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HDeathC.fbx
+Assets/Free Wood Door Pack/Texture/Door_4/Door_4_Normal.tga
+Assets/Floor materials pack/Texture/4/Texture_floor_4.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Right [RM].fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Black.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/VFXatlas.psd
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HStepRight.fbx
+Assets/AllStarCharacterLibrary/Models/Characters/Materials/A06.mat
+Assets/Free Wood Door Pack/Texture/Door_3/Door_3_AO.tga
+Assets/Scenes/Win.unity
+Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Brown.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardLeft.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_ForwardRight.fbx
+Assets/HamsterCage/Prefabs/hamsterCage.prefab
+Assets/ProBuilder Data/Default Material Palette.asset
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_Right [RM].fbx
+Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Brown.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/ProjectileFree1.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_Forward.controller
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/ShortGrass.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/B&BGameplay06.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_BackwardLeft.controller
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Left.fbx
+Assets/Free Wood Door Pack/Texture/Door_11/Door_11_Normal.tga
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Hands/Human Hand Left Mask.mask
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/Dragonfire.png
+Assets/NewBrush 1.brush
+Assets/Forst/Conifers [BOTD]/Sources/Conifer Medium/SM Conifer Medium LOD1.asset
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_Backward.fbx
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Icon.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Effects/Impact.tga
+Assets/Charecters/Skeleton/Materials/SceletonVersion2_m.mat
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Sources/Billboards/Conifer Medium_BillboardMaterial.mat
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Known Issues.txt
+Assets/Forst/Conifers [BOTD]/Sources/Textures/BODT Conifer x Stump [Albedo] [Smoothness].tif
+Assets/Forst/Conifers [BOTD]/Sources/Textures/BODT Conifer Branches_Normal combined.tif
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Tall/Conifer Tall [Albedo].png
+Assets/AllStarCharacterLibrary/Models/Characters/Materials/A03_LOD 1.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_Right.controller
+Assets/Free Wood Door Pack/Prefab/Wood/Door_7/Door_7_Brown.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/Star.mat
+Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Left [RM].fbx
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/SuperHeroConstructionKit.png
+Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Milk.mat
+Assets/FourEvilDragonsHP/Animators/NightmareCTRL.controller
+Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Coffe.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Idles.controller
+Assets/NewLayer.terrainlayer
+Assets/Kevin Iglesias/Human Animations/Models/HumanF_Model.fbx
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/BigOakBillboard01.tif
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HWalkF.fbx
+Assets/FourEvilDragonsHP/Mesh/Stage.fbx
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_Right.controller
+Assets/Shered/FirstPersonCamera.prefab
+Assets/Forst/Conifers [BOTD]/Conifers_HDRP.unitypackage
+Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Brown.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle01-Idle02.fbx
+Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Coffe.mat
+Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+Assets/Hovl Studio/Magic effects pack/Materials/TechCircle.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode pink.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle 2.prefab
+Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_White.mat
+Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Bronze.mat
+Assets/FourEvilDragonsHP/Materials/Skybox_Mat.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/InternationalSoldiers.png
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/thatch_no_opacity/gratis because you are awesome/thatch_bc2.png
+Assets/Medieval Weapon Pack/Textures/Shields/MaskMap_Shields.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_White.prefab
+Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial.mat
+Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Black.mat
+Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Black.mat
+Assets/Hovl Studio/Magic effects pack/Textures/FlashFree2.png
+Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Coffe.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_BackwardRight.controller
+Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+Assets/Simple_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_AO.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Yellow.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Black.prefab
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Prefabs/PF Conifer Medium BOTD URP.prefab
+Assets/Simple_Door/Prefabs/FPS_Controller.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_Backward [RM].fbx
+Assets/Free Wood Door Pack/Texture/Door_10/Door_10_Albedo.tga
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_Left [RM].fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Star hit.prefab
+Assets/fireAttackEffects/textures/trailTexture (1).png
+Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Milk.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_ForwardRight.controller
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Backward.fbx
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_ForwardRight.controller
+Assets/fireAttackEffects/explenationDocument/Explenation document.docx
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_ForwardRight.fbx
+Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Yellow.mat
+Assets/Free Wood Door Pack/Texture/Door_15/Door_15_Normal.tga
+Assets/Hovl Studio/Magic effects pack/Textures/FlashFree3.png
+Assets/AllStarCharacterLibrary/Models/StatusBars/Materials/GreenHealth.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 [RM] - Begin.fbx
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Coffe.mat
+Assets/ALP_Assets/Big Oak Tree FREE/Shaders/ALP Surface Detail.shader
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode red.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Brown.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/PBR/Stone_Wall_Greek_04_AmbientOcclusion.png
+Assets/HamsterCage/exampleScene/Lightmap-0_comp_light.exr
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/PBR/Stone_Wall_Greek_02_Height.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/HDRP/plane_divided_DefaultMaterial_BaseMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Coffe.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/Crack.mat
+Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Coffe.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneAlbedo.png
+Assets/Hovl Studio/Magic effects pack/Textures/FlashFree1.png
+Assets/Free Wood Door Pack/Texture/Door_1/Door_1_Albedo.tga
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/HDRP/plane_divided_DefaultMaterial_MaskMap.png
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/Materials/Weapons02.mat
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Small/Conifer Small DO.tif
+Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_White.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Black.prefab
+Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Purple.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Black.prefab
+Assets/Hovl Studio/Magic effects pack/Textures/GlowFree1.png
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/Gameplay02.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/URP/plane_divided_DefaultMaterial_AlbedoTransparency.png
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksDisplacementMap.png
+Assets/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Green.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Venge.prefab
+Assets/Simple_Door/Prefabs/Simple_Door.prefab
+Assets/Free Wood Door Pack/Texture/Door_13/Door_1_Substance_Hig_Material _2576_MetallicSmoothness.tga
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/HDRP/004.mat
+Assets/Hovl Studio/Magic effects pack/Textures/Flash.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_3/Door_3_Venge.prefab
+Assets/Free Wood Door Pack/Texture/Door_Knob/Knob_Albedo.tga
+Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Yellow.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect blue.prefab
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/Scream.fbx
+Assets/Medieval Weapon Pack/Prefabs/Unused/Sword_02.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAmbientOcclusionMap.png
+Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Milk.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Turn01_Right [RM].controller
+Assets/TerrainData_25c999d8-7287-4b3c-9506-df91af4ff3ab.asset
+Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Thunder.prefab
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Hands/Human Hands Mask.mask
+Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Coffe.prefab
+Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Yellow.mat
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HPain.fbx
+Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Black.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Right [RM].fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Yellow.prefab
+Assets/Free Wood Door Pack/Texture/Door_5/Door_5_AO.tga
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Human Body Full Mask.mask
+Assets/Free Wood Door Pack/Materials/Door_6_Materials/Door_6_Venge.mat
+Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_light.exr
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HDeathC.fbx
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/wood/T_darkwood_basecolor.png
+Assets/Kevin Iglesias/Human Animations/Animations/Masked Poses/Human@ObjectGripHands01.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneSpecularMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Black.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield blue.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Land.fbx
+Assets/HamsterCage/ExampleSceneAssets/Sky/Sky_Blur.hdr
+Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Yellow.prefab
+Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Yellow.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Right [RM].fbx
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/grey.mat
+Assets/HamsterCage/exampleScene.unity
+Assets/ALP_Assets/Big Oak Tree FREE/Prefabs/OakBigTree01_pr.prefab
+Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Yellow.mat
+Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat
+Assets/Charecters/Texture/Knight_specular.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke vortex.prefab
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/lookAtTarget.prefab
+Assets/Charecters/Skeleton/Materials/SceletonVersion3_m.mat
+Assets/Medieval Weapon Pack/Prefabs/Unused/Axe_01.prefab
+Assets/Free Wood Door Pack/Texture/Door_6/Door_6_Spec.tga
+Assets/Hovl Studio/Magic effects pack/Textures/Crystal1_Base.png
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Sources/Billboards/Conifer Tall_BillboardAsset.asset
+Assets/Hovl Studio/Magic effects pack/Materials/Gradient.mat
+Assets/ALP_Assets/Big Oak Tree FREE/Shaders/ALP Water Gestner Waves.shader
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_Left.controller
+Assets/Medieval Weapon Pack/Textures/Swords/MaskMap_Swords.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Yellow.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/PBR/Stone_Wall_Greek_04_Roughness.png
+Assets/Hovl Studio/Magic effects pack/Textures/Gradient2.png
+Assets/Free Wood Door Pack/Materials/Door_Knob_Material/Grafit.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Jump01 [RM].controller
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyForward.fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Milk.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_ForwardLeft.fbx
+Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Normal.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Sprint01_Forward.controller
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Bare/Conifer Bare A.tif
+Assets/Free Wood Door Pack/Texture/Door_10/Door_10_AO.tga
+Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Electro slash.prefab
+Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png
+Assets/Free Wood Door Pack/Texture/Door_5/Door_5_Spec.tga
+Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Milk.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtNormalMap.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab
+Assets/Free Wood Door Pack/Materials/Door_11_Materials/Door_11_Brown.mat
+Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle2.png
+Assets/Free Wood Door Pack/Texture/Door_9/Door_9_Spec.tga
+Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Brown.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/RootMotion/HumanM@Sprint01_Forward [RM].fbx
+Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Yellow.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Black.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/URP/plane_divided_DefaultMaterial_MetallicSmoothness.png
+Assets/Medieval Weapon Pack/Models/Unused/Sword_02.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneSpecularMap.png
+Assets/Free Wood Door Pack/Texture/Door_15/Door_15_Spec.tga
+Assets/Medieval Weapon Pack/Textures/Axes/Normal_Axes.png
+Assets/AllStarCharacterLibrary/Models/StatusBars/YellowHealth.tga
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/PBR/Mountain_Village_Wall_01_BaseColor.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_BackwardRight.controller
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/PBR/Materials/Stone_Wall_Greek_03_Height.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_Right [RM].fbx
+Assets/Free Wood Door Pack/Texture/Door_3/Door_3_Normal.tga
+Assets/FourEvilDragonsHP/Texture/DragonUsurper/GreenHP.png
+Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_White.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneDisplacementMap.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/AoE slash green.prefab
+Assets/FourEvilDragonsHP/Texture/DragonUsurper/RedHP.png
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtNormalMap.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/URP/plane_divided_DefaultMaterial_Normal.png
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD0_p_hut_003.fbx
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Walk01_Right.controller
+Assets/fireAttackEffects/pipelineAsset/Global Volume Profile.asset
+Assets/Simple_Door/Scenes/Simple_Door.unity
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_BackwardRight [RM].fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMaleSpineAvatarMask.mask
+Assets/Medieval Weapon Pack/Textures/Shields/Normal_Shields.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_Venge.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Plexus.prefab
+Assets/HamsterCage/ExampleSceneAssets/3dobjects/Materials/Ground.mat
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Bare/Conifer Bare DO.tif
+Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Brown.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Left [RM].fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/Materials/Enchanter.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Snow slash.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Sprint01_Left.controller
+Assets/Forst/Conifers [BOTD]/Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardRight.fbx
+Assets/Free Wood Door Pack/Materials/Door_8_Materials/Door_8_Coffe.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Effects/Materials/Impact.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_Backward.controller
+Assets/Hovl Studio/Magic effects pack/Materials/Floor3.mat
+Assets/Medieval Weapon Pack/Prefabs/Sword_03.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_BackwardLeft.fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/MaleEnemy.controller
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/pink.mat
+Assets/TutorialInfo/Layout.wlt
+Assets/Hovl Studio/Magic effects pack/Materials/SmokeFree1.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 [RM] - Land.fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/FemaleUpperBody.mask
+Assets/Hovl Studio/Magic effects pack/Demo scene/LightingData.asset
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_Backward.controller
+Assets/Castle.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Coffe.prefab
+Assets/AllStarCharacterLibrary/Scripts/CameraAngles/testMesh.asset
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtSpecularMap.png
+Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_White.mat
+Assets/Kevin Iglesias/Human Animations/Animations/HumanBasicMotionsFREE_BlenderFiles.zip
+Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Brown.prefab
+Assets/Medieval Weapon Pack/Textures/Swords/Normal_Swords.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Coffe.prefab
+Assets/Free Wood Door Pack/Texture/Door_15/Door_15_Albedo.tga
+Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_White.mat
+Assets/Free Wood Door Pack/Texture/Door_14/Door_14_Spec.tga
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/HDRP/01.mat
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/PBR/Mountain_Village_Wall_01_Height.png
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtDisplacementMap.png
+Assets/uploads_files_2186762_-p_hut_003_export/export/model/-LOD0_p_hut_003.mtl
+Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_Brown.prefab
+Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Yellow.mat
+Assets/Charecters/Texture/Knight_normal.png
+Assets/Medieval Weapon Pack/Textures/Axes/MaskMap_Axes.png
+Assets/Hovl Studio/Magic effects pack/Materials/Circle.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/B&BGameplay03.mat
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/wood/burned_wood/normal.png
+Assets/FourEvilDragonsHP/Animators/UsurperCTRL.controller
+Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Black.prefab
+Assets/Hovl Studio/Magic effects pack/Textures/CrystalFree1.png
+Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Milk.mat
+Assets/NewBrush.brush
+Assets/Free Wood Door Pack/Texture/Door_2/Door_2_AO.tga
+Assets/ALP_Assets/Big Oak Tree FREE/PostProfile/Library.asset
+Assets/AllStarCharacterLibrary/Models/Materials/SexySidekicks.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash blue.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/Slash.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Stones hit.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/SuperMale@KnockedBack.FBX
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Medium/Conifer Medium A.tif
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing green.prefab
+Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Coffe.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_BackwardLeft [RM].fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WetDirt/WetDirtDisplacementMap.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_ForwardRight [RM].fbx
+Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Brown.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/Gameplay03.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/PBR/Stone_Wall_Greek_03_BaseColor.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 - Begin.fbx
+Assets/Hovl Studio/Magic effects pack/Textures/SmokeFree1.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Prefabs/Human_BasicMotionsDummy_M.prefab
+Assets/Scenes/Lose.unity
+Assets/AllStarCharacterLibrary/Models/Materials/Weapons.tga
+Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Venge.mat
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Human Head Mask.mask
+Assets/Hovl Studio/Magic effects pack/Textures/Circle2.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_ForwardLeft.controller
+Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Venge.prefab
+Assets/Scenes/SecondMission.unity
+Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_White.prefab
+Assets/Hovl Studio/Magic effects pack/Materials/Flash.mat
+Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HCombatIdle.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksAlbedo.png
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/B&BGameplayIcon.mat
+Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Red.prefab
+Assets/Free Wood Door Pack/Texture/Door_9/Door_9_AO.tga
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/Gameplay06.png
+Assets/ALP_Assets/Big Oak Tree FREE/Graphics Settings.rtf
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/HumanF@Sprint01_ForwardRight.fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_1/Door_1_Brown.prefab
+Assets/Simple_Door/Scenes/Simple_DoorSettings.lighting
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing blue.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/B&BGameplay04.mat
+Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Black.mat
+Assets/Medieval Weapon Pack/Materials/Unused/Mat_Axes.mat
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/Defend.fbx
+Assets/ALP_Assets/Big Oak Tree FREE/Shaders/ALP Surface Detail Wind.shader
+Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Venge.prefab
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Medium/Conifer Medium DA.tif
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkAlbedo.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/PBR/Stone_Wall_Greek_03_Height.png
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Small/Conifer Small [Albedo].png
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/RootMotion/HumanM@Walk01_ForwardLeft [RM].fbx
+Assets/Free Wood Door Pack/Texture/Door_9/Door_9_Normal.tga
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/Sleep.fbx
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Sprint01_ForwardLeft.controller
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Right.fbx
+Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_Coffe.mat
+Assets/Kevin Iglesias/Human Animations/Textures/HumanAnimations_ColorPalette.png
+Assets/HamsterCage/ExampleSceneAssets/Textures/holzplatte_02b_maskmap.png
+Assets/Kevin Iglesias/Human Animations/Models/Avatar Masks/Arms/Human Arm Left Mask.mask
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/Ground.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Coffe.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Brown.prefab
+Assets/Charecters/Skeleton/Prefab/Skeleton.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Milk.prefab
+Assets/Free Wood Door Pack/Texture/Door_12/Door_12_Albedo.tga
+Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Venge.mat
+Assets/Hovl Studio/Magic effects pack/Textures/Star.png
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksNormalMap.png
+Assets/fireAttackEffects/pipelineAsset/New Universal Render Pipeline Asset_Renderer.asset
+Assets/Hovl Studio/Magic effects pack/Demo scene/ReflectionProbe-1.exr
+Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_Black.prefab
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/CTI Runtime Components URP 14plus.pdf
+Assets/Free Wood Door Pack/Prefab/Wood/Door_12/Door_12_White.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke hemisphere loop.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardRight [RM].fbx
+Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Venge.mat
+Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_White.mat
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/HDRP/plane_divided_DefaultMaterial_MaskMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Venge.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle02.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect red.prefab
+Assets/TerrainData_e8dae73b-d7d8-4de1-9b34-7db6a8e7e660.asset
+Assets/Free Wood Door Pack/Materials/Door_3_Materials/Door_3_Milk.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Turn/HumanF@Turn01_Left.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAlbedo.png
+Assets/FourEvilDragonsHP/Materials/DragonUsurper/GreenHP.mat
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Tall/Conifer Tall DA.tif
+Assets/Free Wood Door Pack/Materials/Door_5_Materials/Door_5_Brown.mat
+Assets/Free Wood Door Pack/Materials/Door_10_Materials/Door_10_Coffe.mat
+Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer
+Assets/HamsterCage/Textures/hamstercage_ground.png
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassDisplacementMap.png
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/PainLayer.controller
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/Human Basic Motions - Unity Demo Scene.unity
+Assets/Free Wood Door Pack/Prefab/Wood/Door_13/Door_13_Milk.prefab
+Assets/Hovl Studio/Magic effects pack/Demo scene/Demo fire 1Settings.lighting
+Assets/font/Beyond Wonderland.ttf
+Assets/AllStarCharacterLibrary/Models/Characters/Ninjas/Ninjas.FBX
+Assets/Free Wood Door Pack/Materials/SkyboxProcedural.mat
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/SmoothStone.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Sprint01_Right.controller
+Assets/Free Wood Door Pack/Materials/Door_13_Materials/Door_13_Brown.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_Forward [RM].fbx
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Prefabs/CTI Windzone URP.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HDeathB.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/HDRP/plane_divided_DefaultMaterial_BaseMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Black.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HDeathB.fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/MaleUpperBody.mask
+Assets/AllStarCharacterLibrary/Models/Characters/Ninjas/Materials/SuperLowNinja.mat
+Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Albedo.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_2/Door_2_White.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/newAds.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks red.prefab
+Assets/Knight D Pelegrini.prefab
+Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Global Lighting/ReadMe.md
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/PBR/Stone_Wall_Greek_04_Normal.png
+Assets/Free Wood Door Pack/Texture/Door_15/Door_15_AO.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_Yellow.prefab
+Assets/Free Wood Door Pack/Materials/Door_1_Materials/Door_1_Coffe.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 - Land.fbx
+Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Coffe.mat
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/RadialAngler.FBX
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_Forward.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardLeft.fbx
+Assets/Free Wood Door Pack/Texture/Door_9/Door_9_Albedo.tga
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust loop.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HAttack.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Jump/HumanF@Jump01 [RM] - Land.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/URP/plane_divided_DefaultMaterial_MetallicSmoothness.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle02-Idle01.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Ground AOE explosion.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@Run01_ForwardLeft.controller
+Assets/Medieval Weapon Pack/Prefabs/Unused/Sword_01.prefab
+Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer
+Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Lightning aura.prefab
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Known Issues.txt
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Laser AOE.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_BackwardLeft.fbx
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/FlyFlame.fbx
+Assets/AllStarCharacterLibrary/Scripts/Game.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassNormalMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Yellow.prefab
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/FloorTile.fbm/FloorOverlay.tga
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkDisplacementMap.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_8/Door_8_Milk.prefab
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/SuperMale.FBX
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneDisplacementMap.png
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/takeOff.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/HDRP/plane_divided_DefaultMaterial_Normal.png
+Assets/Hovl Studio/Magic effects pack/Materials/FlashFree2.mat
+Assets/Free Wood Door Pack/Texture/Door_13/Door_1_Substance_Hig_Material _2576_AlbedoTransparency.tga
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Medium/Conifer Medium DO.tif
+Assets/Free Wood Door Pack/Prefab/Wood/Door_9/Door_9_Coffe.prefab
+Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Smoke AOE explosion.prefab
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Sprint/RootMotion/HumanF@Sprint01_Right [RM].fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Venge.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/GetinOutVehicles.mat
+Assets/Hovl Studio/Magic effects pack/Textures/Stone.png
+Assets/TerrainData_ce84837c-b71b-4e30-9cdc-b1c92834922f.asset
+Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_White.mat
+Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Black.mat
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/BranchesOak001_N.png
+Assets/Charecters/Skeleton/Scenes/Demo.unity
+Assets/FourEvilDragonsHP/Texture/DragonUsurper/BlueHP.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_ForwardLeft.fbx
+Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Venge.mat
+Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png
+Assets/Free Wood Door Pack/Materials/Door_4_Materials/Door_4_Black.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Left [RM].fbx
+Assets/Hovl Studio/Magic effects pack/Models/Crystal1.fbx
+Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_ForwardRight.fbx
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanM@MaskedWalking.controller
+Assets/Hovl Studio/Magic effects pack/Textures/Electro.png
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HCombatRunF.fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Milk.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassSpecularMap.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/URP/plane_divided_DefaultMaterial_Normal.png
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/barkOak001_smooth.png
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Right.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Tall/Conifer Tall DO.tif
+Assets/Free Wood Door Pack/Prefab/Wood/Door_14/Door_14_White.prefab
+Assets/Hovl Studio/Magic effects pack/Textures/Snowflake.png
+Assets/Simple_Door/Materials/SimpleDoor_Mat.mat
+Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_White.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Snow hit.prefab
+Assets/Free Wood Door Pack/Texture/Door_7/Door_7_Spec.tga
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/HumanF@Walk01_Left.fbx
+Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Teleport.prefab
+Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+Assets/Free Wood Door Pack/Materials/Door_9_Materials/Door_9_Yellow.mat
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/No Name.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Walk/RootMotion/HumanF@Walk01_Backward [RM].fbx
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/barkOak001_AO.png
+Assets/Hovl Studio/Magic effects pack/Demo scene/Magic effects demo.unity
+Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke puff.prefab
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/barkOak001_N.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode green.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_4/Door_4_White.prefab
+Assets/Free Wood Door Pack/Texture/Door_5/Door_5_Albedo.tga
+Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_White.prefab
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkSpecularMap.png
+Assets/Kevin Iglesias/Human Animations/Animations/Masked Poses/Human@HandsClosed01.fbx
+Assets/Free Wood Door Pack/Materials/Door_2_Materials/Door_2_Black.mat
+Assets/Settings/Mobile_RPAsset.asset
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HCombatIdle.fbx
+Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+Assets/Scenes/ThirdMission.unity
+Assets/Forst/CTI Runtime Components/CTI Runtime Components URP 14plus/Shaders/Includes/CTI URP SG Wind.hlsl
+Assets/Free Wood Door Pack/Materials/Door_12_Materials/Door_12_White.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/MyGame.mat
+Assets/Free Wood Door Pack/Prefab/Wood/Door_15/Door_15_Yellow.prefab
+Assets/Free Wood Door Pack/Texture/Door_13/Door_1_Substance_Hig_Material _2576_Normal.tga
+Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab
+Assets/Medieval Weapon Pack/Render Pipelines/BRP.unitypackage
+Assets/Forst/Conifers [BOTD]/Sources/Conifer Medium/SM Conifer Medium LOD0.asset
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Sources/Billboards/Conifer Medium_BillboardAsset.asset
+Assets/FourEvilDragonsHP/Prefab/DragonUsurper/Green.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/B&BGameplay01.mat
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/SwingDirection.prefab
+Assets/Free Wood Door Pack/Materials/Door_15_Materials/Door_15_Yellow.mat
+Assets/Hovl Studio/Magic effects pack/Models/Slash.fbx
+Assets/Free Wood Door Pack/Readme.pdf
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/HDRP/plane_divided_DefaultMaterial_Normal.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_BackwardRight.controller
+Assets/ALP_Assets/Big Oak Tree FREE/Shaders/ALP Cutout Translucency Wind.shader
+Assets/Free Wood Door Pack/Materials/Door_14_Materials/Door_14_Black.mat
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/B&BGameplay05.mat
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HDeathA.fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HStepBack.FBX
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodPlanks/WoodPlanksSpecularMap.png
+Assets/HamsterCage/_Install_RP_Versions_/Install_HDRP.unitypackage
+Assets/Hovl Studio/Magic effects pack/Materials/DistortionPoint.mat
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/BranchesOak001_Trans.tif
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Idles/HumanF@Idle01.fbx
+Assets/Forst/Conifers [BOTD]/Render Pipeline Support/URP/Sources/Billboards/Conifer Tall_BillboardMaterial.mat
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/HumanF@Run01_BackwardLeft.fbx
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/getHit.fbx
+Assets/Medieval Weapon Pack/Shaders/BRP/BRP_MaskMap_DoubleSided.shader
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/Trunk01.mat
+Assets/Hovl Studio/Magic effects pack/Demo scene/Readme.txt
+Assets/Free Wood Door Pack/Materials/Door_7_Materials/Door_7_Milk.mat
+Assets/Kevin Iglesias/Human Animations/Models/HumanM_Model.fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_10/Door_10_Yellow.prefab
+Assets/Hovl Studio/Magic effects pack/Models/Torus1.fbx
+Assets/AllStarCharacterLibrary/Models/CollisionHelpers/Materials/AnglerBlue.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_White.prefab
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_04/URP/plane_divided_DefaultMaterial_AlbedoTransparency.png
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Idles.overrideController
+Assets/AllStarCharacterLibrary/Scripts/Zone00.prefab
+Assets/Simple_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_AlbedoTransparency.png
+Assets/Free Wood Door Pack/Texture/Door_10/Door_10_Normal.tga
+Assets/Free Wood Door Pack/Prefab/Wood/Door_11/Door_11_Coffe.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/Materials/B&BGameplay02.mat
+Assets/Forst/Conifers [BOTD]/Sources/Textures/Billboards/Billboard Medium/Conifer Medium [Albedo].png
+Assets/Free Wood Door Pack/Texture/Door_2/Door_2_Normal.tga
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Turn/HumanM@Turn01_Left.fbx
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/GetInOutVehicleLibrary.png
+Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing red.prefab
+Assets/Medieval Weapon Pack/Prefabs/Unused/Axe_03.prefab
+Assets/Medieval Weapon Pack/Prefabs/Shield_01.prefab
+Assets/HamsterCage/Textures/hamstercage_main.png
+Assets/AllStarCharacterLibrary/Models/Characters/Materials/A03 1.mat
+Assets/Hovl Studio/Magic effects pack/Materials/FlashFree3.mat
+Assets/Medieval Weapon Pack/Prefabs/Unused/Shield_03.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Sprint01_Forward.controller
+Assets/Free Wood Door Pack/Mesh/Knob_2.FBX
+Assets/TextMesh Pro/Sprites/EmojiOne.json
+Assets/Scenes/TryAgain.unity
+Assets/Medieval Weapon Pack/Shaders/Documentation.pdf
+Assets/Hovl Studio/Magic effects pack/Materials/Circle2.mat
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HDeathA.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Demo/DemoScene.unity
+Assets/AllStarCharacterLibrary/Models/StatusBars/HealthBar.FBX
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@MaskedWalking.overrideController
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassNormalMap.png
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Left.fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/FemalePlayer.controller
+Assets/ALP_Assets/Big Oak Tree FREE/Models/Textures/BranchesOak001_MASK.tif
+Assets/Kevin Iglesias/Human Animations/Human Basic Motions 2.4 FREE.pdf
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_03/URP/plane_divided_DefaultMaterial_Normal.png
+Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Yellow.prefab
+Assets/AllStarCharacterLibrary/Models/StatusBars/HealthBarPrefab.prefab
+Assets/Free Wood Door Pack/Prefab/Wood/Door_6/Door_6_Coffe.prefab
+Assets/BTM_Assets/BTM_Items_Gems/Prefabs/Heart.prefab
+Assets/AllStarCharacterLibrary/Models/Materials/Marketing/InternationalSoldiers.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Talking.controller
+Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_Brown.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_Right.controller
+Assets/AllStarCharacterLibrary/Models/RootAnimsFemale/BaseFemale@1HPain.fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/enemy.controller
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Movement/Run/RootMotion/HumanF@Run01_ForwardLeft [RM].fbx
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HAttack.fbx
+Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Forward.fbx
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_02/PBR/Stone_Wall_Greek_02_AmbientOcclusion.png
+Assets/Kevin Iglesias/Human Animations/Materials/HumanAnimations_Dummy-Orange.mat
+Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash purple.prefab
+Assets/Hovl Studio/Magic effects pack/Textures/Crack.png
+Assets/Free Wood Door Pack/Texture/Door_14/Door_14_AO.tga
+Assets/uploads_files_2186762_-p_hut_003_export/export/textures/thatch_no_opacity/gratis because you are awesome/thatch_bc3a.png
+Assets/AllStarCharacterLibrary/Models/RootAnimsMale/BaseMale@1HStepForward.fbx
+Assets/TerrainData_e90c6d69-654f-4d59-afe6-f92e6d20df32.asset
+Assets/FourEvilDragonsHP/Animations/DragonUsurper/idle02.fbx
+Assets/HamsterCage/ExampleSceneAssets/Textures/holzplatte_02b.png
+Assets/Sinister_Heart/Mountain_VIllage_Stone_Walls/Mountain_Village_Wall_01/URP/plane_divided_DefaultMaterial_Normal.png
+Assets/Kevin Iglesias/Human Animations/Animations/Female/Social/Conversation/HumanF@Talk01.fbx
+Assets/Free Wood Door Pack/Prefab/Wood/Door_5/Door_5_White.prefab
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Walk01_Forward.controller
+Assets/Medieval Weapon Pack/Models/Unused/Axe_03.fbx
+Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WetDirt.mat
+Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions/AnimatorControllers/HumanF@Run01_ForwardLeft.controller
