@@ -1,8 +1,28 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; // ← for LoadScene
 
 [RequireComponent(typeof(CharacterController), typeof(Animator))]
 public class PlayerMovementScript : MonoBehaviour
 {
+    // === Teleport / external pause support =========================
+    public static float TeleportLockUntil = 0f;
+    public static void LockFor(float seconds)
+    {
+        var until = Time.time + Mathf.Max(0f, seconds);
+        if (until > TeleportLockUntil) TeleportLockUntil = until;
+    }
+
+    // === DEV CHEAT: jump to scene 3 ================================
+    [Header("Dev / Cheats")]
+    public bool enableCheats = true;
+    [Tooltip("Hold LeftCtrl and press this number key to jump scenes")]
+    public KeyCode cheatNumberKey = KeyCode.Alpha3; // Ctrl+3
+    public string cheatSceneName  = "ThirdMission";
+
+    // External input toggle (e.g., during puzzle UI)
+    public bool inputEnabled = true;
+    public void EnableInput(bool enabled) => inputEnabled = enabled;
+
     [Header("Walk/Run Speeds")]
     public float walkSpeed     = 5f;
     public float runSpeed      = 8f;
@@ -21,7 +41,7 @@ public class PlayerMovementScript : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        cc = GetComponent<CharacterController>();
+        cc       = GetComponent<CharacterController>();
         animator.applyRootMotion = false;
 
         Cursor.lockState = CursorLockMode.Locked;
@@ -30,6 +50,35 @@ public class PlayerMovementScript : MonoBehaviour
 
     void Update()
     {
+       // ─── CHEAT: Press P → load ThirdMission ───────────────
+        if (enableCheats && Input.GetKeyDown(KeyCode.P))
+        {
+            TeleportLockUntil = Time.time + 0.25f; // brief lock so movers don’t fight
+            SceneManager.LoadScene(cheatSceneName);
+            return;
+        }
+
+
+
+        // ─── 0) Early-outs: paused by UI or teleport lock ───────
+        if (!inputEnabled || Time.time < TeleportLockUntil)
+        {
+            yVelocity += Physics.gravity.y * Time.deltaTime;
+
+            Vector3 lockMotion = new Vector3(0f, yVelocity, 0f);
+            var lockFlags = cc.Move(lockMotion * Time.deltaTime);
+            if ((lockFlags & CollisionFlags.Below) != 0 && yVelocity < 0f)
+                yVelocity = -2f;
+
+            if (animator)
+            {
+                animator.SetBool("IsWalking",  false);
+                animator.SetBool("IsRunning",  false);
+                animator.SetBool("IsBlocking", false);
+            }
+            return;
+        }
+
         var   stats     = GetComponent<PlayerStats>();
         bool  pressJump = Input.GetButtonDown("Jump");
         bool  holdShift = Input.GetKey(KeyCode.LeftShift);
@@ -68,7 +117,7 @@ public class PlayerMovementScript : MonoBehaviour
         // ─── 3) Camera-relative input ──────────────────────────
         Transform cam = Camera.main.transform;
         Vector3 camF  = cam.forward; camF.y = 0; camF.Normalize();
-        Vector3 camR  = cam.right;   camR.y = 0; camR.Normalize();   // ← FIX: was -cam.right (inverted)
+        Vector3 camR  = cam.right;   camR.y = 0; camR.Normalize();
         Vector3 dir   = (camF * v + camR * h).normalized;
 
         // ─── 4) Run/walk + drain ──────────────────────────────
@@ -77,10 +126,8 @@ public class PlayerMovementScript : MonoBehaviour
         if (running)
         {
             float cost = stats.runStaminaCost * Time.deltaTime;
-            if (stats.currentStamina >= cost)
-                stats.currentStamina -= cost;
-            else
-                running = false;
+            if (stats.currentStamina >= cost) stats.currentStamina -= cost;
+            else running = false;
         }
         animator.SetBool("IsWalking", walking);
         animator.SetBool("IsRunning", running);
@@ -94,9 +141,7 @@ public class PlayerMovementScript : MonoBehaviour
         // ─── 5) Move & stick ───────────────────────────────────
         var flags = cc.Move(motion * Time.deltaTime);
         if ((flags & CollisionFlags.Below) != 0 && yVelocity < 0f)
-        {
             yVelocity = -2f;
-        }
 
         // ─── 6) Rotation ───────────────────────────────────────
         if (dir.sqrMagnitude > 0f)

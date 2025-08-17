@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 236049214}
   m_Layer: 0
   m_Name: ResPoint
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4254,6 +4254,12 @@ MonoBehaviour:
   castleButton: {fileID: 843332438}
   HatButton: {fileID: 1787361195}
   SwordButton: {fileID: 1939000549}
+  player: {fileID: 978058885213772497, guid: 1b3f5b6a8813f2945bbcf4e706a44dc7, type: 3}
+  respawnPoint: {fileID: 236049214}
+  movementScriptToPause: {fileID: 0}
+  loadWinOnSolve: 1
+  resetOnSolve: 0
+  winSceneName: Win
 --- !u!4 &934459475
 Transform:
   m_ObjectHideFlags: 0

@@ -2,15 +2,17 @@ using UnityEngine;
 
 public class DragonShooter : MonoBehaviour
 {
-   [Header("Attack Settings")]
+    [Header("Attack Settings")]
     public GameObject fireballPrefab;
     public Transform fireSpawnPoint;
     public float fireballSpeed = 20f;
     public float fireCooldown = 2f;
+    public Transform dragonRespawnPoint;
+
 
     [Header("Vision Settings")]
     public float rayLength = 70f;
-    public LayerMask playerLayer;     // include Player (+ walls if you want blocking)
+    public LayerMask playerLayer;
     public Transform player;
 
     [Header("Debug")]
@@ -62,7 +64,7 @@ public class DragonShooter : MonoBehaviour
         lastFireTime = Time.time;
 
         GameObject fireball = Instantiate(fireballPrefab, fireSpawnPoint.position, Quaternion.LookRotation(dir));
-        
+
         if (fireball.GetComponent<Rigidbody>() is Rigidbody rb)
         {
             rb.useGravity = false;
@@ -73,4 +75,22 @@ public class DragonShooter : MonoBehaviour
         if (animator) animator.SetTrigger("Shoot");
         Debug.Log("[Dragon] Shoot");
     }
+    
+    void TeleportPlayerToDragonRespawn()
+    {
+        if (dragonRespawnPoint == null || player == null)
+        {
+            Debug.LogWarning("[Dragon] No dragon respawn point assigned!");
+            return;
+        }
+
+        var cc = player.GetComponent<CharacterController>();
+        if (cc != null) cc.enabled = false;
+
+        player.position = dragonRespawnPoint.position;
+        player.rotation = dragonRespawnPoint.rotation;
+
+        if (cc != null) cc.enabled = true;
+    }
+
 }
