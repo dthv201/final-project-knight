@@ -55,22 +55,22 @@ public class CameraSwitcher : MonoBehaviour
     }
 
     void SetActive(bool useThirdPerson)
-    {
-        thirdPersonCamGO.SetActive(useThirdPerson);
-        firstPersonCamGO.SetActive(!useThirdPerson);
+{
+    thirdPersonCamGO.SetActive(useThirdPerson);
+    firstPersonCamGO.SetActive(!useThirdPerson);
 
-        // Force correct camera mode
-        if (tpLook) tpLook.firstPerson = false;
-        if (fpLook) fpLook.firstPerson = true;
+    if (tpLook) tpLook.firstPerson = !useThirdPerson;
+    if (fpLook) fpLook.firstPerson = useThirdPerson;
 
-        // Make sure only one is tagged MainCamera
-        if (tpCam) tpCam.tag = useThirdPerson ? "MainCamera" : "Untagged";
-        if (fpCam) fpCam.tag = useThirdPerson ? "Untagged"   : "MainCamera";
+    // Camera tag
+    if (tpCam) tpCam.tag = useThirdPerson ? "MainCamera" : "Untagged";
+    if (fpCam) fpCam.tag = useThirdPerson ? "Untagged"   : "MainCamera";
 
-        // AudioListener — only one should be active
-        var fpAL = firstPersonCamGO.GetComponent<AudioListener>();
-        var tpAL = thirdPersonCamGO.GetComponent<AudioListener>();
-        if (fpAL) fpAL.enabled = !useThirdPerson;
-        if (tpAL) tpAL.enabled =  useThirdPerson;
-    }
+    // Audio
+    var fpAL = firstPersonCamGO.GetComponent<AudioListener>();
+    var tpAL = thirdPersonCamGO.GetComponent<AudioListener>();
+    if (fpAL) fpAL.enabled = !useThirdPerson;
+    if (tpAL) tpAL.enabled =  useThirdPerson;
+}
+
 }

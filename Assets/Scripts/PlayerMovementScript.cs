@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement; // ← for LoadScene
 [RequireComponent(typeof(CharacterController), typeof(Animator))]
 public class PlayerMovementScript : MonoBehaviour
 {
+    private Transform activeCam;
+
     // === Teleport / external pause support =========================
     public static float TeleportLockUntil = 0f;
     public static void LockFor(float seconds)
@@ -41,11 +43,17 @@ public class PlayerMovementScript : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        cc       = GetComponent<CharacterController>();
+        cc = GetComponent<CharacterController>();
         animator.applyRootMotion = false;
 
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible   = false;
+        Cursor.visible = false;
+        
+        if (Camera.main != null)
+            activeCam = Camera.main.transform;
+        else
+            Debug.LogWarning("Startup: Camera.main is NULL");
+
     }
 
     void Update()
@@ -111,11 +119,19 @@ public class PlayerMovementScript : MonoBehaviour
             lastGroundedTime = jumpPressedTime = null;
         }
 
+       
+
         // ─── 2) Gravity ────────────────────────────────────────
         yVelocity += Physics.gravity.y * Time.deltaTime;
 
         // ─── 3) Camera-relative input ──────────────────────────
-        Transform cam = Camera.main.transform;
+  
+        if (Camera.main != null && Camera.main.transform != activeCam)
+            activeCam = Camera.main.transform;
+
+        Transform cam = activeCam != null ? activeCam : transform;
+
+
         Vector3 camF  = cam.forward; camF.y = 0; camF.Normalize();
         Vector3 camR  = cam.right;   camR.y = 0; camR.Normalize();
         Vector3 dir   = (camF * v + camR * h).normalized;
