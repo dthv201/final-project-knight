@@ -3094,7 +3094,7 @@ PrefabInstance:
       addedObject: {fileID: 1696646742}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 794620d462785614e974480343233684, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1696646746}
+      addedObject: {fileID: 1696646748}
     - targetCorrespondingSourceObject: {fileID: 2789650600883315023, guid: 794620d462785614e974480343233684, type: 3}
       insertIndex: -1
       addedObject: {fileID: 158014265}
@@ -9291,7 +9291,7 @@ MonoBehaviour:
   explosionForce: 500
   explosionRadius: 5
   playerTag: Sword
---- !u!136 &1696646746
+--- !u!136 &1696646748
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9313,7 +9313,7 @@ CapsuleCollider:
   m_Radius: 0.29
   m_Height: 1
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.21, z: 0}
 --- !u!1 &1727369443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 150114, guid: 09ade59177310454ba3c93ae4b7dc125, type: 3}
