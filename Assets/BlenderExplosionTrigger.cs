@@ -11,6 +11,7 @@ public class BlenderExplosionTrigger : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
+		Debug.Log($"[Breakable] trigger with {other.name}, tag={other.tag}");
 		if (!hasExploded && other.CompareTag(playerTag))
 		{
 			hasExploded = true;

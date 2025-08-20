@@ -3,7 +3,7 @@ using UnityEngine;
 public class DealDamage : MonoBehaviour
 {
     [SerializeField] private float  damage;
-    private void OnTriggerEnter(Collider other)
+    private void OnEnter(Collider other)
     {
         if (other.CompareTag("Enemy"))
         {
